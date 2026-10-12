@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+html.ocean .bg-\[\#020617\] {
+  background-color: #061727 !important;
+}
+
+html.forest .bg-\[\#020617\] {
+  background-color: #021812 !important;
+}
+
+html.rose .bg-\[\#020617\] {
+  background-color: #1f0911 !important;
+}
+
+html.amethyst .bg-\[\#020617\] {
+  background-color: #150524 !important;
+}

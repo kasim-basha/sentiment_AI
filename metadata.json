@@ -1,0 +1,9 @@
+{
+  "name": "SentimentAI",
+  "description": "Understand Every Emotion. Unified multimodal sentiment & emotion intelligence across text, documents, images, video, and audio.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

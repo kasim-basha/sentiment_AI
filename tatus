@@ -1,0 +1,407 @@
+index.html:21: new blank line at EOF.
+server.ts:75: trailing whitespace.
+[32m+[m[41m  [m
+server.ts:121: trailing whitespace.
+[32m+[m[32m    : text[m[41m [m
+server.ts:143: trailing whitespace.
+[32m+[m[32m    meaning: text[m[41m [m
+server.ts:163: trailing whitespace.
+[32m+[m[32m    exact_file_contents: text[m[41m [m
+server.ts:166: trailing whitespace.
+[32m+[m[32m    file_content_items: text[m[41m [m
+server.ts:170: trailing whitespace.
+[32m+[m[32m      current_tone_evaluation: label === "Negative"[m[41m [m
+server.ts:172: trailing whitespace.
+[32m+[m[32m        : label === "Neutral"[m[41m [m
+server.ts:332: trailing whitespace.
+[32m+[m[41m  [m
+server.ts:333: trailing whitespace.
+[32m+[m[32m  const estimatedSaved = isDoc[m[41m [m
+server.ts:401: trailing whitespace.
+[32m+[m[41m  [m
+server.ts:447: trailing whitespace.
+[32m+[m[32m      const response = await generateContentWithTimeout({[m[41m [m
+server.ts:448: trailing whitespace.
+[32m+[m[32m        model: modelName,[m[41m [m
+server.ts:452: trailing whitespace.
+[32m+[m[41m          [m
+server.ts:458: trailing whitespace.
+[32m+[m[41m          [m
+server.ts:538: trailing whitespace.
+[32m+[m[41m        [m
+src/App.tsx:124: trailing whitespace.
+[32m+[m[41m    [m
+src/App.tsx:167: trailing whitespace.
+[32m+[m[32m        <AnalysisDetailView[m[41m [m
+src/App.tsx:183: trailing whitespace.
+[32m+[m[32m        <Dashboard[m[41m [m
+src/App.tsx:184: trailing whitespace.
+[32m+[m[32m          user={currentUser}[m[41m [m
+src/App.tsx:185: trailing whitespace.
+[32m+[m[32m          onLogout={handleLogout}[m[41m [m
+src/App.tsx:194: trailing whitespace.
+[32m+[m[32m        <MyAnalysis[m[41m [m
+src/App.tsx:197: trailing whitespace.
+[32m+[m[32m          setView={handleNavigate}[m[41m [m
+src/App.tsx:206: trailing whitespace.
+[32m+[m[32m        <History[m[41m [m
+src/App.tsx:207: trailing whitespace.
+[32m+[m[32m          user={currentUser}[m[41m [m
+src/App.tsx:208: trailing whitespace.
+[32m+[m[32m          onLogout={handleLogout}[m[41m [m
+src/App.tsx:218: trailing whitespace.
+[32m+[m[32m        <Reports[m[41m [m
+src/App.tsx:219: trailing whitespace.
+[32m+[m[32m          user={currentUser}[m[41m [m
+src/App.tsx:220: trailing whitespace.
+[32m+[m[32m          onLogout={handleLogout}[m[41m [m
+src/App.tsx:229: trailing whitespace.
+[32m+[m[32m        <ProfilePage[m[41m [m
+src/App.tsx:239: trailing whitespace.
+[32m+[m[32m        <SettingsPage[m[41m [m
+src/App.tsx:250: trailing whitespace.
+[32m+[m[32m          <AccessDenied[m[41m [m
+src/App.tsx:254: trailing whitespace.
+[32m+[m[32m            }}[m[41m [m
+src/App.tsx:259: trailing whitespace.
+[32m+[m[32m        <AdminDashboard[m[41m [m
+src/App.tsx:270: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:271: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:272: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:273: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:274: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:277: trailing whitespace.
+[32m+[m[32m            <CommunityPage[m[41m [m
+src/App.tsx:278: trailing whitespace.
+[32m+[m[32m              currentUser={currentUser}[m[41m [m
+src/App.tsx:290: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:291: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:292: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:293: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:294: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:306: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:307: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:308: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:309: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:310: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:315: trailing whitespace.
+[32m+[m[32m            <SearchPage[m[41m [m
+src/App.tsx:330: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:331: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:332: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:333: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:334: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:339: trailing whitespace.
+[32m+[m[32m            <AnalyticsPage[m[41m [m
+src/App.tsx:351: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:352: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:353: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:354: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:355: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:360: trailing whitespace.
+[32m+[m[32m            <InsightsPage[m[41m [m
+src/App.tsx:372: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:373: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:374: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:375: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:376: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:381: trailing whitespace.
+[32m+[m[32m            <GoalsPage[m[41m [m
+src/App.tsx:395: trailing whitespace.
+[32m+[m[32m          <DashboardNavbar[m[41m [m
+src/App.tsx:396: trailing whitespace.
+[32m+[m[32m            user={currentUser}[m[41m [m
+src/App.tsx:397: trailing whitespace.
+[32m+[m[32m            onLogout={handleLogout}[m[41m [m
+src/App.tsx:398: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:399: trailing whitespace.
+[32m+[m[32m            currentView={view}[m[41m [m
+src/App.tsx:404: trailing whitespace.
+[32m+[m[32m            <GeminiChatbot[m[41m [m
+src/App.tsx:414: trailing whitespace.
+[32m+[m[32m      <Dashboard[m[41m [m
+src/App.tsx:415: trailing whitespace.
+[32m+[m[32m        user={currentUser}[m[41m [m
+src/App.tsx:416: trailing whitespace.
+[32m+[m[32m        onLogout={handleLogout}[m[41m [m
+src/App.tsx:429: trailing whitespace.
+[32m+[m[32m          <GeminiFloatingChat[m[41m [m
+src/App.tsx:430: trailing whitespace.
+[32m+[m[32m            currentUser={currentUser}[m[41m [m
+src/App.tsx:431: trailing whitespace.
+[32m+[m[32m            onNavigate={handleNavigate}[m[41m [m
+src/App.tsx:474: trailing whitespace.
+[32m+[m[32m          <LoginForm[m[41m [m
+src/App.tsx:475: trailing whitespace.
+[32m+[m[32m            onSwitchToRegister={() => setView("register")}[m[41m [m
+src/App.tsx:479: trailing whitespace.
+[32m+[m[32m          <RegisterForm[m[41m [m
+src/App.tsx:480: trailing whitespace.
+[32m+[m[32m            onSwitchToLogin={() => setView("login")}[m[41m [m
+src/backend/config/index.ts:11: trailing whitespace.
+[32m+[m[41m  [m
+src/backend/config/index.ts:16: trailing whitespace.
+[32m+[m[41m  [m
+src/backend/config/index.ts:21: trailing whitespace.
+[32m+[m[41m  [m
+src/backend/controllers/analyticsController.ts:73: trailing whitespace.
+[32m+[m[41m  [m
+src/backend/controllers/analyticsController.ts:76: trailing whitespace.
+[32m+[m[41m    [m
+src/backend/controllers/analyticsController.ts:860: trailing whitespace.
+[32m+[m[32m        "#0ea5e9", "#10b981", "#6366f1", "#f59e0b", "#ec4899",[m[41m [m
+src/backend/controllers/authController.ts:39: trailing whitespace.
+[32m+[m[32m      const role = email.toLowerCase().endsWith("@sentimentai.com") && email.toLowerCase().startsWith("admin")[m[41m [m
+src/backend/controllers/authController.ts:40: trailing whitespace.
+[32m+[m[32m        ? "admin"[m[41m [m
+src/backend/controllers/authController.ts:56: trailing whitespace.
+[32m+[m[41m      [m
+src/backend/controllers/clarityController.ts:46: trailing whitespace.
+[32m+[m[32m        userId,[m[41m [m
+src/backend/controllers/clarityController.ts:47: trailing whitespace.
+[32m+[m[32m        analysisId,[m[41m [m
+src/backend/controllers/clarityController.ts:347: trailing whitespace.
+[32m+[m[32m      const {[m[41m [m
+src/backend/controllers/clarityController.ts:348: trailing whitespace.
+[32m+[m[32m        analysisId,[m[41m [m
+src/backend/controllers/clarityController.ts:349: trailing whitespace.
+[32m+[m[32m        mode = "simple",[m[41m [m
+src/backend/controllers/clarityController.ts:350: trailing whitespace.
+[32m+[m[32m        section,[m[41m [m
+src/backend/controllers/clarityController.ts:351: trailing whitespace.
+[32m+[m[32m        language = "English",[m[41m [m
+src/backend/controllers/clarityController.ts:352: trailing whitespace.
+[32m+[m[32m        question = "Can you please explain this analysis in clear, understandable terms?"[m[41m [m
+src/backend/controllers/cloudStorageController.ts:57: trailing whitespace.
+[32m+[m[32m      const records = Array.isArray(req.body.records)[m[41m [m
+src/backend/controllers/cloudStorageController.ts:58: trailing whitespace.
+[32m+[m[32m        ? req.body.records[m[41m [m
+src/backend/controllers/cloudStorageController.ts:59: trailing whitespace.
+[32m+[m[32m        : req.body.record[m[41m [m
+src/backend/controllers/cloudStorageController.ts:60: trailing whitespace.
+[32m+[m[32m        ? [req.body.record][m[41m [m
+src/backend/controllers/goalController.ts:52: trailing whitespace.
+[32m+[m[32m      const {[m[41m [m
+src/backend/controllers/goalController.ts:53: trailing whitespace.
+[32m+[m[32m        title,[m[41m [m
+src/backend/controllers/goalController.ts:54: trailing whitespace.
+[32m+[m[32m        description,[m[41m [m
+src/backend/controllers/goalController.ts:55: trailing whitespace.
+[32m+[m[32m        category,[m[41m [m
+src/backend/controllers/goalController.ts:56: trailing whitespace.
+[32m+[m[32m        measurementType,[m[41m [m
+src/backend/controllers/goalController.ts:57: trailing whitespace.
+[32m+[m[32m        targetValue,[m[41m [m
+src/backend/controllers/goalController.ts:60: trailing whitespace.
+[32m+[m[32m        startDate,[m[41m [m
+src/backend/controllers/goalController.ts:61: trailing whitespace.
+[32m+[m[32m        endDate[m[41m [m
+src/backend/controllers/goalController.ts:180: trailing whitespace.
+[32m+[m[32m      const {[m[41m [m
+src/backend/controllers/goalController.ts:181: trailing whitespace.
+[32m+[m[32m        title,[m[41m [m
+src/backend/controllers/goalController.ts:182: trailing whitespace.
+[32m+[m[32m        description,[m[41m [m
+src/backend/controllers/goalController.ts:183: trailing whitespace.
+[32m+[m[32m        category,[m[41m [m
+src/backend/controllers/goalController.ts:184: trailing whitespace.
+[32m+[m[32m        measurementType,[m[41m [m
+src/backend/controllers/goalController.ts:185: trailing whitespace.
+[32m+[m[32m        targetValue,[m[41m [m
+src/backend/controllers/goalController.ts:188: trailing whitespace.
+[32m+[m[32m        startDate,[m[41m [m
+src/backend/controllers/goalController.ts:189: trailing whitespace.
+[32m+[m[32m        endDate[m[41m [m
+src/backend/controllers/securityController.ts:169: trailing whitespace.
+[32m+[m[41m      [m
+src/backend/database/index.ts:4: trailing whitespace.
+[32m+[m[32mimport {[m[41m [m
+src/backend/database/index.ts:5: trailing whitespace.
+[32m+[m[32m  DatabaseSchema,[m[41m [m
+src/backend/database/index.ts:6: trailing whitespace.
+[32m+[m[32m  UserTable,[m[41m [m
+src/backend/database/index.ts:7: trailing whitespace.
+[32m+[m[32m  AnalysisSessionTable,[m[41m [m
+src/backend/database/index.ts:8: trailing whitespace.
+[32m+[m[32m  AnalysisInputTable,[m[41m [m
+src/backend/database/index.ts:9: trailing whitespace.
+[32m+[m[32m  AnalysisResultTable,[m[41m [m
+src/backend/database/index.ts:10: trailing whitespace.
+[32m+[m[32m  ReportTable,[m[41m [m
+src/backend/database/index.ts:11: trailing whitespace.
+[32m+[m[32m  VoiceSessionTable,[m[41m [m
+src/backend/database/index.ts:12: trailing whitespace.
+[32m+[m[32m  UserSettingsTable,[m[41m [m
+src/backend/database/index.ts:13: trailing whitespace.
+[32m+[m[32m  UserProfileTable,[m[41m [m
+src/backend/database/index.ts:14: trailing whitespace.
+[32m+[m[32m  PostTable,[m[41m [m
+src/backend/database/index.ts:15: trailing whitespace.
+[32m+[m[32m  CommentTable,[m[41m [m
+src/backend/database/index.ts:16: trailing whitespace.
+[32m+[m[32m  LikeTable,[m[41m [m
+src/backend/database/index.ts:17: trailing whitespace.
+[32m+[m[32m  CommunityReportTable,[m[41m [m
+src/backend/database/index.ts:302: trailing whitespace.
+[32m+[m[32m        notifications: {[m[41m [m
+src/backend/database/index.ts:303: trailing whitespace.
+[32m+[m[32m          emailAlerts: true,[m[41m [m
+src/backend/database/index.ts:304: trailing whitespace.
+[32m+[m[32m          weeklyDigest: false,[m[41m [m
+src/backend/database/index.ts:305: trailing whitespace.
+[32m+[m[32m          sentimentAnomalies: true,[m[41m [m
+src/backend/database/index.ts:312: trailing whitespace.
+[32m+[m[32m        privacy: {[m[41m [m
+src/backend/database/index.ts:321: trailing whitespace.
+[32m+[m[32m          allowAnalytics: true,[m[41m [m
+src/backend/database/index.ts:322: trailing whitespace.
+[32m+[m[32m          dataRetentionDays: 30,[m[41m [m
+src/backend/database/index.ts:323: trailing whitespace.
+[32m+[m[32m          profilePublic: false[m[41m [m
+src/backend/database/index.ts:437: trailing whitespace.
+[32m+[m[32m      records = records.filter(r =>[m[41m [m
+src/backend/database/index.ts:618: trailing whitespace.
+[32m+[m[32m      posts = posts.filter(p =>[m[41m [m
+src/backend/database/index.ts:825: trailing whitespace.
+[32m+[m[32m      records = records.filter(r =>[m[41m [m
+src/backend/database/index.ts:1710: trailing whitespace.
+[32m+[m[41m    [m
+src/backend/database/index.ts:1713: trailing whitespace.
+[32m+[m[32m      matched = allFriends.filter(f =>[m[41m [m
+src/backend/database/index.ts:1773: trailing whitespace.
+[32m+[m[41m        [m
+src/backend/database/index.ts:1851: trailing whitespace.
+[32m+[m[32m      userReports = userReports.filter(r =>[m[41m [m
+src/backend/database/index.ts:1912: trailing whitespace.
+[32m+[m[41m    [m
+src/backend/database/index.ts:1922: trailing whitespace.
+[32m+[m[32m      posts = posts.filter(p =>[m[41m [m
+src/backend/database/index.ts:2232: trailing whitespace.
+[32m+[m[32m    conversationId: string,[m[41m [m
+src/backend/database/index.ts:2618: trailing whitespace.
+[32m+[m[41m    [m
+src/backend/database/index.ts:2830: trailing whitespace.
+[32m+[m[32m      gp => gp.goalId === goal._id &&[m[41m [m
+src/backend/database/index.ts:2872: trailing whitespace.
+[32m+[m[32m    userId: string,[m[41m [m
+src/backend/database/index.ts:2886: trailing whitespace.
+[32m+[m[32m        n => n.userId === userId &&[m[41m [m
+src/backend/database/index.ts:2887: trailing whitespace.
+[32m+[m[32m        n.type === params.type &&[m[41m [m
+src/backend/database/index.ts:2888: trailing whitespace.
+[32m+[m[32m        n.data?.goalId === goalId &&[m[41m [m
+src/backend/database/index.ts:3084: trailing whitespace.
+[32m+[m[41m      [m
+src/backend/database/index.ts:3603: new blank line at EOF.
+src/backend/database/types.ts:343: trailing whitespace.
+[32m+[m[32mexport type NotificationType =[m[41m [m
+src/backend/database/types.ts:344: trailing whitespace.
+[32m+[m[32m  | "friend_request"[m[41m [m
+src/backend/database/types.ts:345: trailing whitespace.
+[32m+[m[32m  | "friend_accepted"[m[41m [m
+src/backend/database/types.ts:346: trailing whitespace.
+[32m+[m[32m  | "new_message"[m[41m [m
+src/backend/database/types.ts:347: trailing whitespace.
+[32m+[m[32m  | "incoming_call"[m[41m [m
+src/backend/database/types.ts:348: trailing whitespace.
+[32m+[m[32m  | "missed_call"[m[41m [m
+src/backend/database/types.ts:349: trailing whitespace.
+[32m+[m[32m  | "analysis_complete"[m[41m [m
+src/backend/database/types.ts:350: trailing whitespace.
+[32m+[m[32m  | "report_ready"[m[41m [m
+src/backend/database/types.ts:351: trailing whitespace.
+[32m+[m[32m  | "post_like"[m[41m [m
+src/backend/database/types.ts:352: trailing whitespace.
+[32m+[m[32m  | "post_comment"[m[41m [m
+src/backend/database/types.ts:424: trailing whitespace.
+[32m+[m[32mexport type InsightType =[m[41m [m
+src/backend/database/types.ts:425: trailing whitespace.
+[32m+[m[32m  | "trend"[m[41m [m
+src/backend/database/types.ts:426: trailing whitespace.
+[32m+[m[32m  | "sentiment"[m[41m [m
+src/backend/database/types.ts:427: trailing whitespace.
+[32m+[m[32m  | "emotion"[m[41m [m
+src/backend/database/types.ts:428: trailing whitespace.
+[32m+[m[32m  | "multimodal"[m[41m [m
+src/backend/database/types.ts:429: trailing whitespace.
+[32m+[m[32m  | "confidence"[m[41m [m
+src/backend/database/types.ts:430: trailing whitespace.
+[32m+[m[32m  | "activity"[m[41m [m
+src/backend/database/types.ts:431: trailing whitespace.
+[32m+[m[32m  | "attention"[m[41m [m
+src/backend/database/types.ts:524: trailing whitespace.
+[32m+[m[32mexport type GoalCategory =[m[41m [m
+src/backend/database/types.ts:525: trailing whitespace.
+[32m+[m[32m  | "activity"[m[41m [m
+src/backend/database/types.ts:526: trailing whitespace.
+[32m+[m[32m  | "sentiment"[m[41m [m
+src/backend/database/types.ts:527: trailing whitespace.
+[32m+[m[32m  | "emotion"[m[41m [m
+src/backend/database/types.ts:528: trailing whitespace.
+[32m+[m[32m  | "confidence"[m[41m [m
+src/backend/database/types.ts:529: trailing whitespace.
+[32m+[m[32m  | "trend"[m[41m [m
+src/backend/database/types.ts:532: trailing whitespace.
+[32m+[m[32mexport type GoalMeasurementType =[m[41m [m
+src/backend/database/types.ts:533: trailing whitespace.
+[32m+[m[32m  | "analysis_count"[m[41m [m
+src/backend/database/types.ts:534: trailing whitespace.
+[32m+[m[32m  | "positive_count"[m[41m [m
+src/backend/database/types.ts:535: trailing whitespace.
+[32m+[m[32m  | "positive_percentage"[m[41m [m
+src/backend/database/types.ts:536: trailing whitespace.
+[32m+[m[32m  | "avg_sentiment_score"[m[41m [m
+src/backend/database/types.ts:537: trailing whitespace.
+[32m+[m[32m  | "emotion_count"[m[41m [m
+src/backend/database/types.ts:538: trailing whitespace.
+[32m+[m[32m  | "emotion_percentage"[m[41m [m
+src/backend/database/types.ts:539: trailing whitespace.
+[32m+[m[32m  | "avg_confidence"[m[41m [m
+src/backend/database/types.ts:542: trailing whitespace.
+[32m+[m[32mexport type GoalStatus =[m[41m [m
+src/backend/database/types.ts:543: trailing whitespace.
+[32m+[m[32m  | "not_started"[m[41m [m
+src/backend/database/types.ts:544: trailing whitespace.
+[32m+[m[32m  | "active"[m[41m [m
+src/backend/database/types.ts:545: trailing whitespace.
+[32m+[m[32m  | "completed"[m[41m [m
+src/backend/database/types.ts:546: trailing whitespace.
+[32m+[m[32m  | "expired"[m[41m [m
+src/backend/middleware/rateLimiter.ts:57: trailing whitespace.
+[32m+[m[32m  15 * 60 * 1000,[m[41m [m
+src/backend/middleware/rateLimiter.ts:58: trailing whitespace.
+[32m+[m[32m  30,[m[41m [m
+src/backend/middleware/rateLimiter.ts:63: trailing whitespace.
+[32m+[m[32m  60 * 1000,[m[41m [m
+src/backend/middleware/rateLimiter.ts:64

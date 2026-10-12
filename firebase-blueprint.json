@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "users": {
+      "description": "User account profiles",
+      "fields": {
+        "id": { "type": "string", "description": "Unique user ID (matches Firebase Auth UID)" },
+        "name": { "type": "string", "description": "User display name" },
+        "email": { "type": "string", "description": "User email address" },
+        "role": { "type": "string", "description": "User role: user or admin" },
+        "status": { "type": "string", "description": "User status: active or suspended" },
+        "avatarUrl": { "type": "string", "description": "Profile picture URL" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of account creation" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last profile update" },
+        "lastLoginAt": { "type": "string", "description": "ISO timestamp of last sign in" }
+      },
+      "rules": {
+        "read": "request.auth != null && request.auth.uid == userId",
+        "write": "request.auth != null && request.auth.uid == userId"
+      }
+    },
+    "analyses": {
+      "description": "User sentiment and emotion analysis records",
+      "fields": {
+        "id": { "type": "string", "description": "Analysis ID" },
+        "userId": { "type": "string", "description": "Owner user UID" },
+        "modality": { "type": "string", "description": "Analysis modality: text, image, video, audio, or document" },
+        "sentiment": { "type": "string", "description": "Calculated sentiment" },
+        "score": { "type": "number", "description": "Sentiment score (-1 to 1 or 0 to 100)" },
+        "emotions": { "type": "object", "description": "Detected emotions distribution" },
+        "summary": { "type": "string", "description": "Analysis summary or transcription" },
+        "createdAt": { "type": "string", "description": "ISO creation timestamp" }
+      },
+      "rules": {
+        "read": "request.auth != null && (resource == null || resource.data.userId == request.auth.uid)",
+        "write": "request.auth != null && request.resource.data.userId == request.auth.uid"
+      }
+    },
+    "chat_threads": {
+      "description": "User Gemini Chatbot conversations and history",
+      "fields": {
+        "id": { "type": "string", "description": "Thread ID" },
+        "userId": { "type": "string", "description": "Owner user UID" },
+        "title": { "type": "string", "description": "Conversation title" },
+        "persona": { "type": "string", "description": "AI Assistant persona" },
+        "messages": { "type": "array", "description": "List of chat messages" },
+        "createdAt": { "type": "string", "description": "ISO timestamp" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp" }
+      },
+      "rules": {
+        "read": "request.auth != null && (resource == null || resource.data.userId == request.auth.uid)",
+        "write": "request.auth != null && request.resource.data.userId == request.auth.uid"
+      }
+    },
+    "cloud_storage": {
+      "description": "Automatic cloud storage synchronized records and media files",
+      "fields": {
+        "id": { "type": "string", "description": "Unique record or file ID" },
+        "userId": { "type": "string", "description": "Owner user UID" },
+        "type": { "type": "string", "description": "Type: analysis, file, note, chat, or backup" },
+        "title": { "type": "string", "description": "Record title" },
+        "payload": { "type": "object", "description": "Synchronized data payload" },
+        "storagePath": { "type": "string", "description": "Firebase Storage path if binary file" },
+        "createdAt": { "type": "string", "description": "ISO creation timestamp" },
+        "updatedAt": { "type": "string", "description": "ISO update timestamp" }
+      },
+      "rules": {
+        "read": "request.auth != null && (resource == null || resource.data.userId == request.auth.uid)",
+        "write": "request.auth != null && request.resource.data.userId == request.auth.uid"
+      }
+    }
+  }
+}

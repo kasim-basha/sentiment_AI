@@ -1,0 +1,1346 @@
+{
+  "version": 7,
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "SentimentAI Admin",
+      "email": "admin@sentimentai.com",
+      "passwordHash": "$2b$10$e17ruTqytIXuBkP5g05oGe0CfgZ6e26hMqcWd420aYSMaDzUUaxU6",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T07:46:38.217Z",
+      "lastLoginAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "id": "usr_dev_01",
+      "name": "Alex Rivera",
+      "email": "alex@sentimentai.com",
+      "passwordHash": "$2b$10$JhewVoRt5oLW0dFqc2nEzu9544sISpPtkVzG2QNscJCGZPC/wG7NW",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T08:30:28.615Z",
+      "lastLoginAt": "2026-09-22T08:30:28.615Z"
+    },
+    {
+      "id": "usr_dev_02",
+      "name": "Elena Rostova",
+      "email": "elena@sentimentai.com",
+      "passwordHash": "$2b$10$6ymfkw0/DVTSD0QExZlmVu.QRQqnPcUMvyJK1h.KTthNL8UeMCiF6",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T07:46:38.217Z",
+      "lastLoginAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "id": "usr_dev_rahul",
+      "name": "Rahul",
+      "email": "rahul@sentimentai.com",
+      "passwordHash": "$2b$10$6ymfkw0/DVTSD0QExZlmVu.QRQqnPcUMvyJK1h.KTthNL8UeMCiF6",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T07:46:38.217Z",
+      "lastLoginAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "id": "usr_google",
+      "name": "Google Workspace User",
+      "email": "workspace.user@gmail.com",
+      "passwordHash": "oauth_authenticated_session",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-22T07:50:39.622Z",
+      "updatedAt": "2026-09-22T07:50:39.622Z",
+      "lastLoginAt": "2026-09-22T07:50:39.622Z"
+    },
+    {
+      "id": "usr_github",
+      "name": "GitHub Developer",
+      "email": "developer@github.com",
+      "passwordHash": "oauth_authenticated_session",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-22T07:50:44.293Z",
+      "updatedAt": "2026-09-22T07:50:44.293Z",
+      "lastLoginAt": "2026-09-22T07:50:44.293Z"
+    },
+    {
+      "email": "kasimbasha408@gmail.com",
+      "name": "Kasimbasha408",
+      "passwordHash": "$2b$10$WCvqaNSR60dFfNc9XrAwxuDhDGl4ifgSHi.5z.lp8JXRnXMKnG4re",
+      "role": "user",
+      "status": "active",
+      "updatedAt": "2026-09-22T08:30:37.741Z",
+      "lastLoginAt": "2026-09-22T08:30:37.741Z"
+    }
+  ],
+  "userProfiles": [
+    {
+      "userId": "usr_admin_01",
+      "name": "SentimentAI Admin",
+      "email": "admin@sentimentai.com",
+      "bio": "Principal AI Systems Administrator and Trust & Safety Officer.",
+      "title": "Lead Systems Architect",
+      "organization": "SentimentAI Enterprise",
+      "location": "San Francisco, CA",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_dev_01",
+      "name": "Alex Rivera",
+      "email": "alex@sentimentai.com",
+      "bio": "Multimodal sentiment researcher focusing on customer satisfaction dynamics.",
+      "title": "Product Analyst",
+      "organization": "NextGen Labs",
+      "location": "Austin, TX",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_dev_02",
+      "name": "Elena Rostova",
+      "email": "elena@sentimentai.com",
+      "bio": "AI enthusiast exploring cross-lingual speech and video emotion vectors.",
+      "title": "Cognitive Scientist",
+      "organization": "Global AI Alliance",
+      "location": "Geneva, Switzerland",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_dev_rahul",
+      "name": "Rahul",
+      "email": "rahul@sentimentai.com",
+      "bio": "Machine learning engineer exploring multimodal tone & emotional nuance.",
+      "title": "Senior AI Engineer",
+      "organization": "SentimentAI Labs",
+      "location": "Bengaluru, India",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_google",
+      "name": "Google Workspace User",
+      "email": "workspace.user@gmail.com",
+      "updatedAt": "2026-09-22T07:50:39.622Z"
+    },
+    {
+      "userId": "usr_github",
+      "name": "GitHub Developer",
+      "email": "developer@github.com",
+      "updatedAt": "2026-09-22T07:50:44.293Z"
+    },
+    {
+      "name": "Kasimbasha408",
+      "email": "kasimbasha408@gmail.com"
+    }
+  ],
+  "userSettings": [
+    {
+      "userId": "usr_admin_01",
+      "appearance": {
+        "theme": "system",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": true,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": false,
+        "dataRetentionDays": 90,
+        "profilePublic": true,
+        "saveAnalysisHistory": true,
+        "autoDeleteHistory": "never",
+        "saveReports": true,
+        "personalizedExperience": true,
+        "saveClarityConversations": true,
+        "saveGoalTracking": true,
+        "saveSearchHistory": true,
+        "communityVisibility": "private"
+      },
+      "language": "English",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_dev_01",
+      "appearance": {
+        "theme": "dark",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": false,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": true,
+        "dataRetentionDays": 30,
+        "profilePublic": true,
+        "saveAnalysisHistory": true,
+        "autoDeleteHistory": "never",
+        "saveReports": true,
+        "personalizedExperience": true,
+        "saveClarityConversations": true,
+        "saveGoalTracking": true,
+        "saveSearchHistory": true,
+        "communityVisibility": "private"
+      },
+      "language": "English",
+      "updatedAt": "2026-09-22T07:46:38.217Z"
+    },
+    {
+      "userId": "usr_google",
+      "appearance": {
+        "theme": "dark",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": false,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": true,
+        "dataRetentionDays": 30,
+        "profilePublic": true
+      },
+      "language": "English",
+      "updatedAt": "2026-09-22T07:50:39.622Z"
+    },
+    {
+      "userId": "usr_github",
+      "appearance": {
+        "theme": "dark",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": false,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": true,
+        "dataRetentionDays": 30,
+        "profilePublic": true
+      },
+      "language": "English",
+      "updatedAt": "2026-09-22T07:50:44.293Z"
+    },
+    {
+      "appearance": {
+        "theme": "dark",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": false,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": true,
+        "dataRetentionDays": 30,
+        "profilePublic": true
+      },
+      "language": "English"
+    }
+  ],
+  "analysisSessions": [
+    {
+      "analysisId": "seed_an_01",
+      "userId": "usr_dev_01",
+      "title": "Q3 Customer Feedback & Product Survey",
+      "inputSummary": {
+        "textCount": 1,
+        "imageCount": 0,
+        "videoCount": 0,
+        "totalFiles": 0,
+        "hasDirectText": true
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.88
+      },
+      "confidence": "High",
+      "score": 0.88,
+      "emotions": {
+        "dominant": {
+          "name": "Enthusiasm & Delight",
+          "intensity": "High",
+          "reason": "Customers highlighted intuitive workflow execution and fast turnaround."
+        },
+        "secondary": [
+          {
+            "name": "Attentive Loyalty",
+            "intensity": "Moderate",
+            "reason": "Users expressed long-term adoption intent."
+          },
+          {
+            "name": "Anticipation",
+            "intensity": "Moderate",
+            "reason": "Interest in upcoming enterprise features."
+          }
+        ]
+      },
+      "meaning": "Customer reviews for the Q3 release demonstrate high customer delight and strong brand loyalty.",
+      "emotionalContext": "The responses reflect optimism, appreciation, and forward-looking product confidence.",
+      "visualObservations": "No standalone image or video files attached in this session.",
+      "audioContext": "No distinct audio or spoken recording provided.",
+      "multimodalRelationship": "Direct textual submission evaluated across linguistic nuance and sentiment polarity.",
+      "keyInsights": [
+        "88% positive customer satisfaction index across all responses.",
+        "High enthusiasm regarding recent UI speed improvements.",
+        "Constructive requests centered on automated PDF export capabilities."
+      ],
+      "positiveSignals": [
+        "Delight expressed regarding response accuracy.",
+        "High retention willingness reported by key stakeholders."
+      ],
+      "concerns": [
+        "Minor onboarding questions mentioned by first-time users."
+      ],
+      "voiceSummary": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm. Users praised workflow speed and expressed high confidence in the product direction.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Customer Survey",
+        "Product Feedback"
+      ],
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "analysisId": "seed_an_02",
+      "userId": "usr_admin_01",
+      "title": "Executive Town Hall & Strategy Keynote",
+      "inputSummary": {
+        "textCount": 1,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": true
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.92
+      },
+      "confidence": "High",
+      "score": 0.92,
+      "emotions": {
+        "dominant": {
+          "name": "Inspirational Resolve",
+          "intensity": "High",
+          "reason": "Keynote presenter articulated decisive strategic vision and roadmap milestones."
+        },
+        "secondary": [
+          {
+            "name": "Focused Tenacity",
+            "intensity": "High",
+            "reason": "Detailed execution plan laid out for H2."
+          }
+        ]
+      },
+      "meaning": "Strategic keynote delivering leadership direction and team alignment.",
+      "emotionalContext": "High-energy presentation fostering collective optimism.",
+      "keyInsights": [
+        "Leadership conveyed high confidence in revenue trajectory.",
+        "Strong employee engagement metrics."
+      ],
+      "positiveSignals": [
+        "Decisive vision",
+        "Clear milestone roadmap"
+      ],
+      "concerns": [],
+      "voiceSummary": "The executive town hall radiated inspirational resolve and clear strategic alignment.",
+      "status": "completed",
+      "language": "English",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "analysisId": "an_s54g35yp6s",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20260514_OHR.Pitigliano_EN-IN6839021414_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.85
+      },
+      "confidence": "High",
+      "score": 0.85,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "intensity": "High",
+          "reason": "The striking architectural integration with the dramatic cliffside creates a sense of wonder and grandeur."
+        },
+        "secondary": [
+          {
+            "name": "Serenity",
+            "intensity": "Moderate",
+            "reason": "The warm golden-hour lighting and the peaceful, historic atmosphere evoke a calm, timeless feeling."
+          },
+          {
+            "name": "Nostalgia",
+            "intensity": "Moderate",
+            "reason": "The ancient stone structures and rural Italian landscape trigger a sense of connection to history and heritage."
+          }
+        ]
+      },
+      "meaning": "The image captures a timeless, historic village in Italy (likely Pitigliano) built directly into a volcanic tuff cliff, bathed in the warm, golden light of late afternoon.",
+      "emotionalContext": "The scene represents a harmonious blend of human history and natural landscape, suggesting resilience, stability, and enduring beauty.",
+      "visualObservations": "The image features a cluster of ancient stone buildings perched on a steep cliff, illuminated by golden sunlight against a dramatic, partially cloudy sky. The base of the cliff is surrounded by lush green vegetation, highlighting the contrast between the earth-toned architecture and the vibrant landscape.",
+      "keyInsights": [
+        "Nature and human architecture can coexist in a visually stunning and symbiotic way.",
+        "Lighting is a powerful tool to elevate the perceived aesthetic value of historical landmarks.",
+        "The image evokes a sense of escapism and appreciation for slow, traditional ways of living."
+      ],
+      "positiveSignals": [
+        "Warm, golden lighting palette",
+        "Rich, historical architecture",
+        "Natural, verdant foreground",
+        "Dramatic, cloud-filled sky providing depth"
+      ],
+      "concerns": [
+        "None apparent; the scene is purely aesthetic and architectural in nature."
+      ],
+      "voiceSummary": "A breathtaking photograph of an ancient, golden-lit Italian cliffside village, evoking feelings of awe, serenity, and deep appreciation for history.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-22T08:08:23.891Z",
+      "updatedAt": "2026-09-22T08:08:23.891Z"
+    }
+  ],
+  "analysisInputs": [
+    {
+      "inputId": "inp_seed_01",
+      "analysisId": "seed_an_01",
+      "inputType": "text",
+      "textContentReference": "The new SentimentAI update made our workflow twice as fast. Team loves the new layout!",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "inputId": "inp_z6cn29o",
+      "analysisId": "an_s54g35yp6s",
+      "inputType": "image",
+      "fileName": "20260514_OHR.Pitigliano_EN-IN6839021414_UHD_bing.jpg",
+      "fileSize": 3698546,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-22T08:08:23.891Z"
+    }
+  ],
+  "analysisResults": [
+    {
+      "resultId": "res_seed_01",
+      "analysisId": "seed_an_01",
+      "fullResultJson": {
+        "analysis_id": "seed_an_01",
+        "created_at": 1789976798218,
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.88
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Enthusiasm & Delight",
+            "intensity": "High",
+            "reason": "Customers highlighted intuitive workflow execution."
+          },
+          "secondary": [
+            {
+              "name": "Attentive Loyalty",
+              "intensity": "Moderate",
+              "reason": "Long-term adoption intent."
+            }
+          ]
+        },
+        "meaning": "Customer reviews demonstrate high customer delight and strong brand loyalty.",
+        "emotional_context": "Optimism, appreciation, and forward-looking product confidence.",
+        "key_insights": [
+          "88% positive customer satisfaction index across all responses.",
+          "High enthusiasm regarding UI speed."
+        ],
+        "positive_signals": [
+          "Delight expressed regarding response accuracy.",
+          "High retention willingness."
+        ],
+        "concerns": [
+          "Minor onboarding questions mentioned by first-time users."
+        ],
+        "tts_summary": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm.",
+        "exact_file_contents": "Survey text: The new SentimentAI update made our workflow twice as fast.",
+        "file_content_items": [
+          "User feedback submission",
+          "Customer appreciation statements"
+        ],
+        "sentiment_coaching": {
+          "current_tone_evaluation": "The tone is already exceptionally positive and constructive.",
+          "target_goal": "Maintain positive momentum and amplify customer advocacy.",
+          "actionable_steps": [
+            "Send a personalized thank you note acknowledging user loyalty.",
+            "Share the customer feedback in the public community forum."
+          ],
+          "positive_reframing_tips": [
+            "Anchor success stories to customer enablement."
+          ]
+        }
+      },
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "resultId": "res_5u8wjnu",
+      "analysisId": "an_s54g35yp6s",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.85
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "High",
+            "reason": "The striking architectural integration with the dramatic cliffside creates a sense of wonder and grandeur."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "Moderate",
+              "reason": "The warm golden-hour lighting and the peaceful, historic atmosphere evoke a calm, timeless feeling."
+            },
+            {
+              "name": "Nostalgia",
+              "intensity": "Moderate",
+              "reason": "The ancient stone structures and rural Italian landscape trigger a sense of connection to history and heritage."
+            }
+          ]
+        },
+        "meaning": "The image captures a timeless, historic village in Italy (likely Pitigliano) built directly into a volcanic tuff cliff, bathed in the warm, golden light of late afternoon.",
+        "emotional_context": "The scene represents a harmonious blend of human history and natural landscape, suggesting resilience, stability, and enduring beauty.",
+        "key_insights": [
+          "Nature and human architecture can coexist in a visually stunning and symbiotic way.",
+          "Lighting is a powerful tool to elevate the perceived aesthetic value of historical landmarks.",
+          "The image evokes a sense of escapism and appreciation for slow, traditional ways of living."
+        ],
+        "positive_signals": [
+          "Warm, golden lighting palette",
+          "Rich, historical architecture",
+          "Natural, verdant foreground",
+          "Dramatic, cloud-filled sky providing depth"
+        ],
+        "concerns": [
+          "None apparent; the scene is purely aesthetic and architectural in nature."
+        ],
+        "tts_summary": "A breathtaking photograph of an ancient, golden-lit Italian cliffside village, evoking feelings of awe, serenity, and deep appreciation for history.",
+        "visual_observations": "The image features a cluster of ancient stone buildings perched on a steep cliff, illuminated by golden sunlight against a dramatic, partially cloudy sky. The base of the cliff is surrounded by lush green vegetation, highlighting the contrast between the earth-toned architecture and the vibrant landscape.",
+        "analysis_id": "an_s54g35yp6s",
+        "created_at": 1790064503891,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-09-22T08:08:23.891Z",
+      "updatedAt": "2026-09-22T08:08:23.891Z"
+    }
+  ],
+  "reports": [
+    {
+      "reportId": "rep_seed_01",
+      "userId": "usr_dev_01",
+      "analysisId": "seed_an_01",
+      "title": "Q3 Customer Feedback Executive Briefing",
+      "summary": "Comprehensive synthesis of customer feedback showing 88% positive satisfaction.",
+      "format": "executive",
+      "status": "completed",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "voiceSessions": [
+    {
+      "sessionId": "v_seed_01",
+      "userId": "usr_dev_01",
+      "analysisId": "seed_an_01",
+      "title": "Voice Briefing: Q3 Customer Survey",
+      "transcript": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm.",
+      "audioSummary": "Positive outlook with strong enthusiasm.",
+      "durationSeconds": 18,
+      "language": "English",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "posts": [
+    {
+      "postId": "post_seed_01",
+      "authorId": "usr_dev_01",
+      "authorName": "Alex Rivera",
+      "authorEmail": "alex@sentimentai.com",
+      "authorRole": "user",
+      "content": "Just analyzed our Q3 user survey results. Seeing an incredible 88% positive sentiment score across the board! 🚀",
+      "privacy": "community",
+      "sentimentBadge": {
+        "label": "Positive",
+        "dominantEmotion": "Enthusiasm & Delight",
+        "score": 0.88
+      },
+      "metrics": {
+        "confidence": "High",
+        "inputTypes": [
+          "text"
+        ]
+      },
+      "analysisId": "seed_an_01",
+      "tags": [
+        "ProductSurvey",
+        "SentimentInsights"
+      ],
+      "likesCount": 3,
+      "commentsCount": 1,
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "postId": "post_seed_02",
+      "authorId": "usr_dev_02",
+      "authorName": "Elena Rostova",
+      "authorEmail": "elena@sentimentai.com",
+      "authorRole": "user",
+      "content": "Has anyone tried multimodal analysis combining meeting recordings with slide notes? The correlation between visual transitions and vocal tone is fascinating!",
+      "privacy": "public",
+      "sentimentBadge": {
+        "label": "Positive",
+        "dominantEmotion": "Curiosity & Exploration",
+        "score": 0.82
+      },
+      "metrics": {
+        "confidence": "High",
+        "inputTypes": [
+          "video",
+          "text"
+        ]
+      },
+      "tags": [
+        "Multimodal",
+        "SpeechAnalytics"
+      ],
+      "likesCount": 5,
+      "commentsCount": 0,
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "comments": [
+    {
+      "commentId": "comm_seed_01",
+      "postId": "post_seed_01",
+      "authorId": "usr_admin_01",
+      "authorName": "SentimentAI Admin",
+      "authorEmail": "admin@sentimentai.com",
+      "authorRole": "admin",
+      "content": "Fantastic results, Alex! The customer satisfaction trajectory has improved notably since the v2.4 launch.",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "likes": [
+    {
+      "likeId": "like_seed_01",
+      "postId": "post_seed_01",
+      "userId": "usr_admin_01",
+      "createdAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "likeId": "like_seed_02",
+      "postId": "post_seed_01",
+      "userId": "usr_dev_02",
+      "createdAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "likeId": "like_seed_03",
+      "postId": "post_seed_02",
+      "userId": "usr_dev_01",
+      "createdAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "communityReports": [],
+  "auditLogs": [
+    {
+      "id": "log_1790066511528_lmuu1",
+      "userName": "Kasimbasha408",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_REQUESTED",
+      "targetType": "user",
+      "metadata": {
+        "email": "kasimbasha408@gmail.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:41:51.528Z"
+    },
+    {
+      "id": "log_1790065837744_nvvqu",
+      "userName": "Kasimbasha408",
+      "userRole": "user",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "metadata": {
+        "device": "Unknown Browser on Unknown OS",
+        "browser": "Unknown Browser"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:37.744Z"
+    },
+    {
+      "id": "log_1790065837644_dlxyf",
+      "userName": "Kasimbasha408",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_COMPLETED",
+      "targetType": "user",
+      "metadata": {
+        "email": "kasimbasha408@gmail.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:37.644Z"
+    },
+    {
+      "id": "log_1790065837511_f0qnb",
+      "userName": "Kasimbasha408",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_REQUESTED",
+      "targetType": "user",
+      "metadata": {
+        "email": "kasimbasha408@gmail.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:37.511Z"
+    },
+    {
+      "id": "log_1790065828620_p87uo",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "metadata": {
+        "device": "Unknown Browser on Unknown OS",
+        "browser": "Unknown Browser"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:28.620Z"
+    },
+    {
+      "id": "log_1790065828517_7tu62",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_COMPLETED",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "metadata": {
+        "email": "alex@sentimentai.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:28.517Z"
+    },
+    {
+      "id": "log_1790065828367_9a2k5",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_REQUESTED",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "metadata": {
+        "email": "alex@sentimentai.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:30:28.367Z"
+    },
+    {
+      "id": "log_1790065742494_ds0w8",
+      "userName": "Kasimbasha408",
+      "userRole": "user",
+      "action": "PASSWORD_RESET_COMPLETED",
+      "targetType": "user",
+      "metadata": {
+        "email": "kasimbasha408@gmail.com"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:29:02.494Z"
+    },
+    {
+      "id": "log_1790064503893_w52fk",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_s54g35yp6s",
+      "metadata": {
+        "title": "Media Analysis: 20260514_OHR.Pitigliano_EN-IN6839021414_UHD_bing.jpg",
+        "score": 0.85,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T08:08:23.893Z"
+    },
+    {
+      "id": "log_1790063444296_4w2th",
+      "userId": "usr_github",
+      "userName": "GitHub Developer",
+      "userRole": "user",
+      "action": "USER_SOCIAL_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_github",
+      "metadata": {
+        "provider": "github",
+        "device": "Unknown Browser on Unknown OS",
+        "browser": "Unknown Browser"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T07:50:44.296Z"
+    },
+    {
+      "id": "log_1790063439627_ou6uk",
+      "userId": "usr_google",
+      "userName": "Google Workspace User",
+      "userRole": "user",
+      "action": "USER_SOCIAL_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_google",
+      "metadata": {
+        "provider": "google",
+        "device": "Unknown Browser on Unknown OS",
+        "browser": "Unknown Browser"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-22T07:50:39.627Z"
+    },
+    {
+      "id": "log_seed_01",
+      "userId": "usr_admin_01",
+      "userName": "SentimentAI Admin",
+      "userRole": "admin",
+      "action": "SYSTEM_INITIALIZED",
+      "targetType": "system",
+      "targetId": "sentimentai_core",
+      "metadata": {
+        "version": "2.4.0",
+        "environment": "development"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-15T07:46:38.218Z"
+    },
+    {
+      "id": "log_seed_02",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "seed_an_01",
+      "metadata": {
+        "title": "Q3 Customer Feedback & Product Survey",
+        "score": 0.88
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "friendRequests": [
+    {
+      "_id": "freq_seed_01",
+      "senderId": "usr_admin_01",
+      "receiverId": "usr_dev_01",
+      "status": "pending",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "freq_rahul_01",
+      "senderId": "usr_dev_rahul",
+      "receiverId": "usr_dev_01",
+      "status": "pending",
+      "createdAt": "2026-09-22T06:46:38.218Z",
+      "updatedAt": "2026-09-22T06:46:38.218Z"
+    },
+    {
+      "_id": "freq_rahul_admin",
+      "senderId": "usr_dev_rahul",
+      "receiverId": "usr_admin_01",
+      "status": "pending",
+      "createdAt": "2026-09-22T06:46:38.218Z",
+      "updatedAt": "2026-09-22T06:46:38.218Z"
+    }
+  ],
+  "friendships": [
+    {
+      "_id": "fr_seed_01",
+      "userId": "usr_dev_01",
+      "friendId": "usr_dev_02",
+      "createdAt": "2026-09-15T07:46:38.218Z"
+    },
+    {
+      "_id": "fr_seed_02",
+      "userId": "usr_dev_02",
+      "friendId": "usr_dev_01",
+      "createdAt": "2026-09-15T07:46:38.218Z"
+    }
+  ],
+  "conversations": [
+    {
+      "_id": "conv_alex_elena",
+      "type": "private",
+      "members": [
+        "usr_dev_01",
+        "usr_dev_02"
+      ],
+      "lastMessageAt": "2026-09-21T07:46:38.218Z",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "conv_alex_rahul",
+      "type": "private",
+      "members": [
+        "usr_dev_01",
+        "usr_dev_rahul"
+      ],
+      "lastMessageAt": "2026-09-22T07:31:38.218Z",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T07:31:38.218Z"
+    },
+    {
+      "_id": "conv_admin_rahul",
+      "type": "private",
+      "members": [
+        "usr_admin_01",
+        "usr_dev_rahul"
+      ],
+      "lastMessageAt": "2026-09-22T07:31:38.218Z",
+      "createdAt": "2026-09-15T07:46:38.218Z",
+      "updatedAt": "2026-09-22T07:31:38.218Z"
+    }
+  ],
+  "conversationMembers": [
+    {
+      "_id": "cm_01",
+      "conversationId": "conv_alex_elena",
+      "userId": "usr_dev_01",
+      "joinedAt": "2026-09-15T07:46:38.218Z",
+      "lastReadAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "cm_02",
+      "conversationId": "conv_alex_elena",
+      "userId": "usr_dev_02",
+      "joinedAt": "2026-09-15T07:46:38.218Z",
+      "lastReadAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "cm_03",
+      "conversationId": "conv_alex_rahul",
+      "userId": "usr_dev_01",
+      "joinedAt": "2026-09-15T07:46:38.218Z"
+    },
+    {
+      "_id": "cm_04",
+      "conversationId": "conv_alex_rahul",
+      "userId": "usr_dev_rahul",
+      "joinedAt": "2026-09-15T07:46:38.218Z",
+      "lastReadAt": "2026-09-22T07:31:38.218Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "msg_seed_01",
+      "conversationId": "conv_alex_elena",
+      "senderId": "usr_dev_02",
+      "receiverId": "usr_dev_01",
+      "messageType": "text",
+      "content": "Hi Alex! Have you reviewed the latest multimodal sentiment findings from Q3?",
+      "status": "read",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "msg_seed_02",
+      "conversationId": "conv_alex_elena",
+      "senderId": "usr_dev_01",
+      "receiverId": "usr_dev_02",
+      "messageType": "text",
+      "content": "Yes Elena, the tone congruence index looks exceptionally high! Great work.",
+      "status": "read",
+      "createdAt": "2026-09-21T07:46:38.218Z",
+      "updatedAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "msg_rahul_01",
+      "conversationId": "conv_alex_rahul",
+      "senderId": "usr_dev_rahul",
+      "receiverId": "usr_dev_01",
+      "messageType": "text",
+      "content": "Hey, how are you?",
+      "status": "delivered",
+      "createdAt": "2026-09-22T07:31:38.218Z",
+      "updatedAt": "2026-09-22T07:31:38.218Z"
+    },
+    {
+      "_id": "msg_rahul_admin_01",
+      "conversationId": "conv_admin_rahul",
+      "senderId": "usr_dev_rahul",
+      "receiverId": "usr_admin_01",
+      "messageType": "text",
+      "content": "Hey, how are you?",
+      "status": "delivered",
+      "createdAt": "2026-09-22T07:31:38.218Z",
+      "updatedAt": "2026-09-22T07:31:38.218Z"
+    }
+  ],
+  "callSessions": [
+    {
+      "_id": "call_seed_01",
+      "callerId": "usr_dev_02",
+      "receiverId": "usr_dev_01",
+      "type": "audio",
+      "status": "ended",
+      "startedAt": "2026-09-21T07:46:38.218Z",
+      "endedAt": "2026-09-21T07:46:38.218Z",
+      "duration": 245,
+      "createdAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "call_rahul_01",
+      "callerId": "usr_dev_rahul",
+      "receiverId": "usr_dev_01",
+      "type": "video",
+      "status": "missed",
+      "duration": 0,
+      "createdAt": "2026-09-22T07:01:38.218Z"
+    },
+    {
+      "_id": "call_rahul_admin_01",
+      "callerId": "usr_dev_rahul",
+      "receiverId": "usr_admin_01",
+      "type": "video",
+      "status": "missed",
+      "duration": 0,
+      "createdAt": "2026-09-22T07:01:38.218Z"
+    }
+  ],
+  "callParticipants": [
+    {
+      "_id": "cp_01",
+      "callId": "call_seed_01",
+      "userId": "usr_dev_02",
+      "joinedAt": "2026-09-21T07:46:38.218Z",
+      "leftAt": "2026-09-21T07:46:38.218Z"
+    },
+    {
+      "_id": "cp_02",
+      "callId": "call_seed_01",
+      "userId": "usr_dev_01",
+      "joinedAt": "2026-09-21T07:46:38.218Z",
+      "leftAt": "2026-09-21T07:46:38.218Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_seed_01",
+      "userId": "usr_dev_01",
+      "type": "friend_request",
+      "title": "Friend Request",
+      "message": "Rahul sent you a friend request",
+      "data": {
+        "requestId": "freq_rahul_01",
+        "senderId": "usr_dev_rahul",
+        "senderName": "Rahul"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T06:46:38.218Z"
+    },
+    {
+      "_id": "notif_seed_02",
+      "userId": "usr_dev_01",
+      "type": "new_message",
+      "title": "New Message from Rahul",
+      "message": "Hey, how are you?",
+      "data": {
+        "conversationId": "conv_alex_rahul",
+        "senderId": "usr_dev_rahul",
+        "senderName": "Rahul",
+        "content": "Hey, how are you?"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T07:31:38.218Z"
+    },
+    {
+      "_id": "notif_seed_03",
+      "userId": "usr_dev_01",
+      "type": "missed_call",
+      "title": "Missed Call",
+      "message": "Missed video call from Rahul",
+      "data": {
+        "callId": "call_rahul_01",
+        "callerId": "usr_dev_rahul",
+        "callerName": "Rahul",
+        "type": "video"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T07:01:38.218Z"
+    },
+    {
+      "_id": "notif_seed_04",
+      "userId": "usr_dev_01",
+      "type": "analysis_complete",
+      "title": "Analysis Complete",
+      "message": "Your analysis is complete",
+      "data": {
+        "analysisId": "seed_an_01",
+        "title": "Q3 Customer Feedback & Product Survey",
+        "score": 0.88
+      },
+      "read": false,
+      "createdAt": "2026-09-22T05:46:38.218Z"
+    },
+    {
+      "_id": "notif_seed_05",
+      "userId": "usr_dev_01",
+      "type": "report_ready",
+      "title": "Report Ready",
+      "message": "Your report is ready",
+      "data": {
+        "reportId": "seed_rep_01",
+        "title": "Executive Sentiment & Tone Analysis Report - Q3"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T04:46:38.218Z"
+    },
+    {
+      "_id": "notif_seed_06",
+      "userId": "usr_dev_01",
+      "type": "post_like",
+      "title": "Community Like",
+      "message": "Elena Rostova liked your community post",
+      "data": {
+        "postId": "post_seed_01",
+        "actorId": "usr_dev_02",
+        "actorName": "Elena Rostova"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T03:46:38.218Z"
+    },
+    {
+      "_id": "notif_seed_07",
+      "userId": "usr_dev_01",
+      "type": "post_comment",
+      "title": "New Comment",
+      "message": "Elena Rostova commented on your post: \"The visual emotion tracking is impressively accurate!\"",
+      "data": {
+        "postId": "post_seed_01",
+        "commentId": "comm_seed_01",
+        "actorId": "usr_dev_02",
+        "actorName": "Elena Rostova"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T02:46:38.218Z"
+    },
+    {
+      "_id": "notif_admin_01",
+      "userId": "usr_admin_01",
+      "type": "friend_request",
+      "title": "Friend Request",
+      "message": "Rahul sent you a friend request",
+      "data": {
+        "requestId": "freq_rahul_admin",
+        "senderId": "usr_dev_rahul",
+        "senderName": "Rahul"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T06:46:38.218Z"
+    },
+    {
+      "_id": "notif_admin_02",
+      "userId": "usr_admin_01",
+      "type": "new_message",
+      "title": "New Message from Rahul",
+      "message": "Hey, how are you?",
+      "data": {
+        "conversationId": "conv_admin_rahul",
+        "senderId": "usr_dev_rahul",
+        "senderName": "Rahul",
+        "content": "Hey, how are you?"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T07:31:38.218Z"
+    },
+    {
+      "_id": "notif_admin_03",
+      "userId": "usr_admin_01",
+      "type": "missed_call",
+      "title": "Missed Call",
+      "message": "Missed video call from Rahul",
+      "data": {
+        "callId": "call_rahul_admin_01",
+        "callerId": "usr_dev_rahul",
+        "callerName": "Rahul",
+        "type": "video"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T07:01:38.218Z"
+    },
+    {
+      "_id": "notif_admin_04",
+      "userId": "usr_admin_01",
+      "type": "analysis_complete",
+      "title": "Analysis Complete",
+      "message": "Your analysis is complete",
+      "data": {
+        "analysisId": "seed_an_02",
+        "title": "Executive Town Hall & Strategy Keynote",
+        "score": 0.92
+      },
+      "read": false,
+      "createdAt": "2026-09-22T05:46:38.218Z"
+    },
+    {
+      "_id": "notif_admin_05",
+      "userId": "usr_admin_01",
+      "type": "report_ready",
+      "title": "Report Ready",
+      "message": "Your report is ready",
+      "data": {
+        "reportId": "seed_rep_01",
+        "title": "Executive Sentiment & Tone Analysis Report - Q3"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T04:46:38.218Z"
+    },
+    {
+      "_id": "notif_admin_06",
+      "userId": "usr_admin_01",
+      "type": "post_like",
+      "title": "Community Like",
+      "message": "Alex Rivera liked your community post",
+      "data": {
+        "postId": "post_seed_01",
+        "actorId": "usr_dev_01",
+        "actorName": "Alex Rivera"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T03:46:38.218Z"
+    },
+    {
+      "_id": "notif_admin_07",
+      "userId": "usr_admin_01",
+      "type": "post_comment",
+      "title": "New Comment",
+      "message": "Alex Rivera commented on your post: \"High correlation observed across facial cues and acoustic tone.\"",
+      "data": {
+        "postId": "post_seed_01",
+        "commentId": "comm_seed_02",
+        "actorId": "usr_dev_01",
+        "actorName": "Alex Rivera"
+      },
+      "read": false,
+      "createdAt": "2026-09-22T02:46:38.218Z"
+    }
+  ],
+  "blocks": [],
+  "searchHistory": [],
+  "clarityConversations": [],
+  "clarityMessages": [],
+  "goals": [],
+  "goalProgress": [],
+  "userSessions": [
+    {
+      "sessionId": "sess_fgyljkgs27",
+      "userId": "usr_google",
+      "deviceType": "desktop",
+      "deviceName": "Unknown Browser on Unknown OS",
+      "browser": "Unknown Browser",
+      "os": "Unknown OS",
+      "ipAddress": "127.0.0.1",
+      "location": "Local / Secure Network",
+      "createdAt": "2026-09-22T07:50:39.622Z",
+      "lastActiveAt": "2026-09-22T07:50:39.622Z",
+      "isRevoked": false
+    },
+    {
+      "sessionId": "sess_3lcbf2lzsc",
+      "userId": "usr_github",
+      "deviceType": "desktop",
+      "deviceName": "Unknown Browser on Unknown OS",
+      "browser": "Unknown Browser",
+      "os": "Unknown OS",
+      "ipAddress": "127.0.0.1",
+      "location": "Local / Secure Network",
+      "createdAt": "2026-09-22T07:50:44.293Z",
+      "lastActiveAt": "2026-09-22T07:50:44.293Z",
+      "isRevoked": false
+    },
+    {
+      "sessionId": "sess_2gm9f0lewe",
+      "userId": "usr_dev_01",
+      "deviceType": "desktop",
+      "deviceName": "Unknown Browser on Unknown OS",
+      "browser": "Unknown Browser",
+      "os": "Unknown OS",
+      "ipAddress": "127.0.0.1",
+      "location": "Local / Secure Network",
+      "createdAt": "2026-09-22T08:30:28.615Z",
+      "lastActiveAt": "2026-09-22T08:30:28.615Z",
+      "isRevoked": false
+    },
+    {
+      "sessionId": "sess_hjx4zlokf3",
+      "deviceType": "desktop",
+      "deviceName": "Unknown Browser on Unknown OS",
+      "browser": "Unknown Browser",
+      "os": "Unknown OS",
+      "ipAddress": "127.0.0.1",
+      "location": "Local / Secure Network",
+      "createdAt": "2026-09-22T08:30:37.741Z",
+      "lastActiveAt": "2026-09-22T08:30:37.741Z",
+      "isRevoked": false
+    }
+  ]
+}

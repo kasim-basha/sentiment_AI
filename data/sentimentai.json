@@ -1,0 +1,2387 @@
+{
+  "version": 7,
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "SentimentAI Admin",
+      "email": "admin@sentimentai.com",
+      "passwordHash": "$2b$10$UXXryssQ1CpdZyE/MBAAYe0hpSlw8N90ADvXhdm7MuASOTUShLVxK",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-09-05T03:42:27.874Z",
+      "updatedAt": "2026-09-12T03:44:22.642Z",
+      "lastLoginAt": "2026-09-12T03:44:22.642Z"
+    },
+    {
+      "id": "usr_dev_01",
+      "name": "Alex Rivera",
+      "email": "alex@sentimentai.com",
+      "passwordHash": "$2b$10$TGeYAH1M77vsZIVp3qk7yuWOJwHwe.0n2h7iYCvQ38xY63tOuEnBS",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-05T03:42:27.874Z",
+      "updatedAt": "2026-09-12T03:44:19.848Z",
+      "lastLoginAt": "2026-09-12T03:44:19.848Z"
+    },
+    {
+      "id": "usr_dev_02",
+      "name": "Elena Rostova",
+      "email": "elena@sentimentai.com",
+      "passwordHash": "$2b$10$TGeYAH1M77vsZIVp3qk7yuWOJwHwe.0n2h7iYCvQ38xY63tOuEnBS",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-09-05T03:42:27.874Z",
+      "updatedAt": "2026-09-12T03:42:27.874Z",
+      "lastLoginAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "userProfiles": [
+    {
+      "userId": "usr_admin_01",
+      "name": "SentimentAI Admin",
+      "email": "admin@sentimentai.com",
+      "bio": "Principal AI Systems Administrator and Trust & Safety Officer.",
+      "title": "Lead Systems Architect",
+      "organization": "SentimentAI Enterprise",
+      "location": "San Francisco, CA",
+      "updatedAt": "2026-09-12T03:42:27.874Z"
+    },
+    {
+      "userId": "usr_dev_01",
+      "name": "Alex Rivera",
+      "email": "alex@sentimentai.com",
+      "bio": "Multimodal sentiment researcher focusing on customer satisfaction dynamics.",
+      "title": "Product Analyst",
+      "organization": "NextGen Labs",
+      "location": "Austin, TX",
+      "updatedAt": "2026-09-12T03:42:27.874Z"
+    },
+    {
+      "userId": "usr_dev_02",
+      "name": "Elena Rostova",
+      "email": "elena@sentimentai.com",
+      "bio": "AI enthusiast exploring cross-lingual speech and video emotion vectors.",
+      "title": "Cognitive Scientist",
+      "organization": "Global AI Alliance",
+      "location": "Geneva, Switzerland",
+      "updatedAt": "2026-09-12T03:42:27.874Z"
+    }
+  ],
+  "userSettings": [
+    {
+      "userId": "usr_admin_01",
+      "appearance": {
+        "theme": "system",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": true,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": false,
+        "dataRetentionDays": 90,
+        "profilePublic": true,
+        "saveAnalysisHistory": true,
+        "autoDeleteHistory": "never",
+        "saveReports": true,
+        "personalizedExperience": true,
+        "saveClarityConversations": true,
+        "saveGoalTracking": true,
+        "saveSearchHistory": true,
+        "communityVisibility": "private"
+      },
+      "language": "English",
+      "updatedAt": "2026-09-12T03:42:27.874Z"
+    },
+    {
+      "userId": "usr_dev_01",
+      "appearance": {
+        "theme": "dark",
+        "nightLight": false,
+        "compactView": false
+      },
+      "notifications": {
+        "emailAlerts": true,
+        "weeklyDigest": false,
+        "sentimentAnomalies": true,
+        "communityUpdates": true
+      },
+      "privacy": {
+        "allowAnalytics": true,
+        "dataRetentionDays": 30,
+        "profilePublic": true,
+        "saveAnalysisHistory": true,
+        "autoDeleteHistory": "never",
+        "saveReports": true,
+        "personalizedExperience": true,
+        "saveClarityConversations": true,
+        "saveGoalTracking": true,
+        "saveSearchHistory": true,
+        "communityVisibility": "private"
+      },
+      "language": "English",
+      "updatedAt": "2026-09-12T03:42:27.874Z"
+    }
+  ],
+  "analysisSessions": [
+    {
+      "analysisId": "seed_an_01",
+      "userId": "usr_dev_01",
+      "title": "Q3 Customer Feedback & Product Survey",
+      "inputSummary": {
+        "textCount": 1,
+        "imageCount": 0,
+        "videoCount": 0,
+        "totalFiles": 0,
+        "hasDirectText": true
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.88
+      },
+      "confidence": "High",
+      "score": 0.88,
+      "emotions": {
+        "dominant": {
+          "name": "Enthusiasm & Delight",
+          "intensity": "High",
+          "reason": "Customers highlighted intuitive workflow execution and fast turnaround."
+        },
+        "secondary": [
+          {
+            "name": "Attentive Loyalty",
+            "intensity": "Moderate",
+            "reason": "Users expressed long-term adoption intent."
+          },
+          {
+            "name": "Anticipation",
+            "intensity": "Moderate",
+            "reason": "Interest in upcoming enterprise features."
+          }
+        ]
+      },
+      "meaning": "Customer reviews for the Q3 release demonstrate high customer delight and strong brand loyalty.",
+      "emotionalContext": "The responses reflect optimism, appreciation, and forward-looking product confidence.",
+      "visualObservations": "No standalone image or video files attached in this session.",
+      "audioContext": "No distinct audio or spoken recording provided.",
+      "multimodalRelationship": "Direct textual submission evaluated across linguistic nuance and sentiment polarity.",
+      "keyInsights": [
+        "88% positive customer satisfaction index across all responses.",
+        "High enthusiasm regarding recent UI speed improvements.",
+        "Constructive requests centered on automated PDF export capabilities."
+      ],
+      "positiveSignals": [
+        "Delight expressed regarding response accuracy.",
+        "High retention willingness reported by key stakeholders."
+      ],
+      "concerns": [
+        "Minor onboarding questions mentioned by first-time users."
+      ],
+      "voiceSummary": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm. Users praised workflow speed and expressed high confidence in the product direction.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Customer Survey",
+        "Product Feedback"
+      ],
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "analysisId": "seed_an_02",
+      "userId": "usr_admin_01",
+      "title": "Executive Town Hall & Strategy Keynote",
+      "inputSummary": {
+        "textCount": 1,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": true
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.92
+      },
+      "confidence": "High",
+      "score": 0.92,
+      "emotions": {
+        "dominant": {
+          "name": "Inspirational Resolve",
+          "intensity": "High",
+          "reason": "Keynote presenter articulated decisive strategic vision and roadmap milestones."
+        },
+        "secondary": [
+          {
+            "name": "Focused Tenacity",
+            "intensity": "High",
+            "reason": "Detailed execution plan laid out for H2."
+          }
+        ]
+      },
+      "meaning": "Strategic keynote delivering leadership direction and team alignment.",
+      "emotionalContext": "High-energy presentation fostering collective optimism.",
+      "keyInsights": [
+        "Leadership conveyed high confidence in revenue trajectory.",
+        "Strong employee engagement metrics."
+      ],
+      "positiveSignals": [
+        "Decisive vision",
+        "Clear milestone roadmap"
+      ],
+      "concerns": [],
+      "voiceSummary": "The executive town hall radiated inspirational resolve and clear strategic alignment.",
+      "status": "completed",
+      "language": "English",
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "analysisId": "an_fb_v9cktgamvm",
+      "userId": "usr_dev_01",
+      "title": "The new multimodal architecture is incredible! Everything is",
+      "inputSummary": {
+        "textCount": 1,
+        "imageCount": 0,
+        "videoCount": 0,
+        "totalFiles": 0,
+        "hasDirectText": true
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "Moderate to High",
+        "confidence": "High",
+        "score": 0.82
+      },
+      "confidence": "High",
+      "score": 0.82,
+      "emotions": {
+        "dominant": {
+          "name": "Optimism & Confidence",
+          "intensity": "Moderate",
+          "reason": "Evaluated emotional cues from text input and uploaded assets (direct input)."
+        },
+        "secondary": [
+          {
+            "name": "Curiosity",
+            "intensity": "Moderate",
+            "reason": "Probing for analytical clarity and user feedback."
+          },
+          {
+            "name": "Attentiveness",
+            "intensity": "High",
+            "reason": "High focus on detail and communicative consistency."
+          }
+        ]
+      },
+      "meaning": "The input message expresses clear thematic intent: \"The new multimodal architecture is incredible! Everything is fast, responsive, and beautif...\". The tone reflects positive alignment.",
+      "emotionalContext": "Constructive engagement characterized by forward momentum and active attention.",
+      "visualObservations": "No standalone image or video files attached.",
+      "audioContext": "Consistent acoustic cadence with stable pacing and absence of audio distortion.",
+      "multimodalRelationship": "Visual markers reinforce textual intent with harmonious emotional polarity.",
+      "keyInsights": [
+        "Sentiment evaluation registers at Positive (82% index).",
+        "High communicative congruence observed between media elements.",
+        "No critical hostility or communication breakdowns identified."
+      ],
+      "positiveSignals": [
+        "Clarity of communicative intent.",
+        "Constructive engagement metrics."
+      ],
+      "concerns": [
+        "Continue monitoring for potential ambiguity in fast-paced exchanges."
+      ],
+      "voiceSummary": "This analysis indicates an overall positive tone with an index of 82 percent. The dominant emotional state is Optimism & Confidence.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Optimism & Confidence"
+      ],
+      "createdAt": "2026-09-12T03:44:20.537Z",
+      "updatedAt": "2026-09-12T03:44:20.537Z"
+    },
+    {
+      "analysisId": "an_fb_dszbxgkl7w",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 1302bafb-380d-4d3e-b7bc-6111a25bc229.png",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "Moderate to High",
+        "confidence": "High",
+        "score": 0.82
+      },
+      "confidence": "High",
+      "score": 0.82,
+      "emotions": {
+        "dominant": {
+          "name": "Optimism & Confidence",
+          "intensity": "Moderate",
+          "reason": "Evaluated emotional cues from text input and uploaded assets (1302bafb-380d-4d3e-b7bc-6111a25bc229.png)."
+        },
+        "secondary": [
+          {
+            "name": "Curiosity",
+            "intensity": "Moderate",
+            "reason": "Probing for analytical clarity and user feedback."
+          },
+          {
+            "name": "Attentiveness",
+            "intensity": "High",
+            "reason": "High focus on detail and communicative consistency."
+          }
+        ]
+      },
+      "meaning": "The multimodal files present an engaging, cohesive visual and acoustic structure.",
+      "emotionalContext": "Constructive engagement characterized by forward momentum and active attention.",
+      "visualObservations": "Processed 1 multimodal media assets (1302bafb-380d-4d3e-b7bc-6111a25bc229.png). Visual clarity is optimal with balanced framing.",
+      "audioContext": "Consistent acoustic cadence with stable pacing and absence of audio distortion.",
+      "multimodalRelationship": "Visual markers reinforce textual intent with harmonious emotional polarity.",
+      "keyInsights": [
+        "Sentiment evaluation registers at Positive (82% index).",
+        "High communicative congruence observed between media elements.",
+        "No critical hostility or communication breakdowns identified."
+      ],
+      "positiveSignals": [
+        "Clarity of communicative intent.",
+        "Constructive engagement metrics."
+      ],
+      "concerns": [
+        "Continue monitoring for potential ambiguity in fast-paced exchanges."
+      ],
+      "voiceSummary": "This analysis indicates an overall positive tone with an index of 82 percent. The dominant emotional state is Optimism & Confidence.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Optimism & Confidence"
+      ],
+      "createdAt": "2026-09-24T08:00:40.783Z",
+      "updatedAt": "2026-09-24T08:00:40.783Z"
+    },
+    {
+      "analysisId": "an_7lxufgxr25",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.95
+      },
+      "confidence": "High",
+      "score": 0.95,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "intensity": "Very High",
+          "reason": "The vastness and natural beauty of the landscape create an overwhelming sense of wonder and appreciation for the environment."
+        },
+        "secondary": [
+          {
+            "name": "Serenity",
+            "intensity": "High",
+            "reason": "The soft sunset lighting and the quiet, undisturbed coastal scene evoke a feeling of deep peace."
+          },
+          {
+            "name": "Contemplation",
+            "intensity": "Medium",
+            "reason": "The expansive horizon and open space encourage a reflective state of mind."
+          }
+        ]
+      },
+      "meaning": "This image captures a serene, majestic coastal sunset. It represents the harmony between the land, sea, and sky at a moment of transition, conveying feelings of stillness, beauty, and timelessness.",
+      "emotionalContext": "The visual input is a landscape photography piece designed to evoke relaxation and connection with nature. There is no human element, so the emotional context is purely focused on the atmospheric experience of the viewer.",
+      "keyInsights": [
+        "Nature's aesthetic beauty has a strong grounding and calming effect.",
+        "The golden hour lighting enhances feelings of optimism and warmth.",
+        "Open horizons often mirror internal feelings of mental clarity or possibilities."
+      ],
+      "positiveSignals": [
+        "Warm color palette promoting comfort.",
+        "Expansive open space suggesting freedom.",
+        "Calm, undisturbed body of water representing stability."
+      ],
+      "concerns": [],
+      "voiceSummary": "This breathtaking image of a coastal sunset in the Scottish Highlands radiates serenity and awe. With its golden hues, vast landscape, and tranquil sea, it offers a deeply peaceful and reflective experience.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-24T08:18:14.427Z",
+      "updatedAt": "2026-09-24T08:18:14.427Z"
+    },
+    {
+      "analysisId": "an_uafe0ur419",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.85
+      },
+      "confidence": "High",
+      "score": 0.85,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "intensity": "Strong",
+          "reason": "The vast, dramatic landscape under a golden sunset evokes a profound sense of wonder and appreciation for natural beauty."
+        },
+        "secondary": [
+          {
+            "name": "Serenity",
+            "intensity": "Moderate",
+            "reason": "The quiet, expansive bay and the stillness of the landscape suggest a peaceful, contemplative atmosphere."
+          },
+          {
+            "name": "Nostalgia",
+            "intensity": "Mild",
+            "reason": "The wild, rugged terrain carries a timeless quality that often triggers feelings of longing or connection to ancient places."
+          }
+        ]
+      },
+      "meaning": "This image captures a serene, majestic coastal scene during golden hour, emphasizing the beauty of untouched nature and the tranquil vastness of the horizon.",
+      "emotionalContext": "The visual provides a sense of escape and restoration, serving as a reminder of the scale of the world and the quiet power of natural light.",
+      "keyInsights": [
+        "Golden light acts as a powerful enhancer for emotional warmth and optimism.",
+        "Expansive horizons tend to lower cognitive stress and promote a sense of freedom.",
+        "The combination of warm tones and natural textures creates a comforting aesthetic."
+      ],
+      "positiveSignals": [
+        "Warm color palette promoting comfort and vitality.",
+        "Open, unobstructed view inducing feelings of liberation.",
+        "Natural textures (heather, rocks) providing a sense of grounding."
+      ],
+      "concerns": [
+        "None, as the image depicts a peaceful, non-threatening natural environment."
+      ],
+      "voiceSummary": "A breathtaking landscape view showcasing a golden sunset over a calm coastal bay, filled with vibrant heather and rugged terrain. The image radiates a deep sense of peace, awe, and natural beauty.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-28T16:45:19.242Z",
+      "updatedAt": "2026-09-28T16:45:19.242Z"
+    },
+    {
+      "analysisId": "an_91k88xzrb3",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.85
+      },
+      "confidence": "High",
+      "score": 0.85,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "intensity": "High",
+          "reason": "The sweeping, vast landscape coupled with the dramatic, warm lighting creates a profound sense of wonder and appreciation for nature's beauty."
+        },
+        "secondary": [
+          {
+            "name": "Serenity",
+            "intensity": "Medium",
+            "reason": "The quiet, untouched coastal scene evokes a peaceful, contemplative mood."
+          },
+          {
+            "name": "Nostalgia",
+            "intensity": "Low",
+            "reason": "The rugged, timeless terrain can evoke a sense of longing for simpler, more natural landscapes."
+          }
+        ]
+      },
+      "meaning": "The image represents the sublime power of nature, capturing a moment of transition during sunset that highlights the harmony between sky, land, and sea.",
+      "emotionalContext": "The visual serves as an aspirational, calming backdrop that encourages reflection, grounding, and perspective-taking through its expansive natural beauty.",
+      "visualObservations": "The photograph depicts a wide-angle, high-resolution shot of a Scottish-style coastal landscape at sunset. The foreground is defined by textured, brown grasses and patches of purple heather. The mid-ground leads to a calm bay bordered by rolling hills. The sky is filled with dynamic, dramatic clouds illuminated in deep oranges and golds, providing a strong sense of depth and atmospheric scale.",
+      "keyInsights": [
+        "Warm, golden lighting significantly elevates the emotional appeal and perceived positivity of the environment.",
+        "Open horizons are associated with feelings of freedom and mental clarity.",
+        "Foreground details like the purple heather provide a tactile connection to the landscape, increasing viewer immersion."
+      ],
+      "positiveSignals": [
+        "Warm color palette evokes feelings of comfort and safety.",
+        "Expansive horizon suggests possibility and openness.",
+        "Clean, natural textures promote a sense of order and tranquility."
+      ],
+      "concerns": [
+        "The inherent remoteness of the scene could trigger a minor sense of isolation for some observers."
+      ],
+      "voiceSummary": "This breathtaking image captures a serene and awe-inspiring sunset over a rugged coastal landscape. The warm, golden hues of the sky reflecting on the tranquil water create a peaceful, reflective, and profoundly positive atmosphere.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-28T17:50:51.727Z",
+      "updatedAt": "2026-09-28T17:50:51.727Z"
+    },
+    {
+      "analysisId": "an_7blem9zudj",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.95
+      },
+      "confidence": "High",
+      "score": 0.95,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "intensity": "High",
+          "reason": "The vast, dramatic scale of the landscape paired with the vibrant, golden sunset evokes a profound sense of wonder."
+        },
+        "secondary": [
+          {
+            "name": "Serenity",
+            "intensity": "High",
+            "reason": "The stillness of the bay and the soft, warm light suggest a peaceful and calm environment."
+          },
+          {
+            "name": "Nostalgia",
+            "intensity": "Medium",
+            "reason": "The rugged, ancient feel of the terrain evokes feelings of timelessness and connection to nature."
+          }
+        ]
+      },
+      "meaning": "The image depicts a breathtaking, serene coastal landscape during golden hour, emphasizing beauty, isolation, and the grandeur of nature.",
+      "emotionalContext": "The visual narrative represents a moment of quiet reflection, likely experienced during travel or a purposeful outdoor excursion.",
+      "visualObservations": "The photograph displays a wide-angle view of a Scottish-style coastal landscape. The foreground features purple heather and dry grasses, leading to a middle-ground containing a bay with still water and rocky outcrops. The background is dominated by rolling hills and a spectacular, cloud-filled sky glowing with intense golden and amber hues from the setting sun.",
+      "keyInsights": [
+        "The golden lighting acts as a metaphor for warmth, optimism, and conclusion.",
+        "The vast open space symbolizes freedom and personal introspection.",
+        "The combination of rugged earth and soft sunset creates a balance between stability and impermanence."
+      ],
+      "positiveSignals": [
+        "Warm color palette suggests positivity and comfort.",
+        "Symmetrical composition of the bay and clouds creates visual harmony.",
+        "Well-maintained, natural setting implies ecological health and beauty."
+      ],
+      "concerns": [
+        "None; the image is entirely peaceful and positive in nature."
+      ],
+      "voiceSummary": "This is a stunningly peaceful and awe-inspiring image of a coastal landscape at sunset, perfectly capturing a moment of profound beauty and serenity.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-28T19:20:49.312Z",
+      "updatedAt": "2026-09-28T19:20:49.312Z"
+    },
+    {
+      "analysisId": "an_7blem9zudj",
+      "userId": "usr_fb_google_huq1gr3",
+      "title": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing Analysis",
+      "overallSentiment": {
+        "label": "Positive",
+        "score": 0.95,
+        "confidence": "High"
+      },
+      "confidence": "High",
+      "score": 0.95,
+      "emotions": {
+        "dominant": {
+          "name": "Awe",
+          "score": 0.95
+        },
+        "secondary": []
+      },
+      "meaning": "This is a stunningly peaceful and awe-inspiring image of a coastal landscape at sunset, perfectly capturing a moment of profound beauty and serenity.",
+      "status": "completed",
+      "tags": [
+        "Positive",
+        "Awe"
+      ],
+      "createdAt": "2026-09-28T19:20:49.346Z",
+      "updatedAt": "2026-09-28T19:20:49.346Z"
+    },
+    {
+      "analysisId": "an_i7fu6fjvt4",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: 20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing.jpg",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.94
+      },
+      "confidence": "High",
+      "score": 0.94,
+      "emotions": {
+        "dominant": {
+          "name": "Tranquility",
+          "intensity": "High",
+          "reason": "The pristine, untouched snow combined with perfectly still, mirror-like water evokes a profound sense of inner stillness and peaceful contemplation."
+        },
+        "secondary": [
+          {
+            "name": "Awe",
+            "intensity": "High",
+            "reason": "The towering snow-capped mountain peaks bathed in dramatic golden dawn or dusk light evoke wonder at nature's scale."
+          },
+          {
+            "name": "Warmth",
+            "intensity": "Medium",
+            "reason": "The glowing orange and amber sky provides an emotionally soothing counterpoint to the frigid winter landscape."
+          }
+        ]
+      },
+      "meaning": "The image captures a harmonious interplay between the quiet chill of a winter wilderness and the comforting radiance of sunrise or sunset, symbolizing renewal, calm reflection, and majestic solitude.",
+      "emotionalContext": "A restorative visual sanctuary removed from the noise of modern life, offering space for mindfulness and emotional decompression.",
+      "visualObservations": "A scenic panorama showing snow-blanketed fir trees lining the banks of a partially frozen river, which flawlessly reflects dramatic orange and gold clouds framing sharp mountain peaks in the distance.",
+      "audioContext": "Silent and serene visual atmosphere evoking gentle sounds of crisp cold air and faintly trickling icy water.",
+      "multimodalRelationship": "Purely visual landscape evoking multisensory sensations of crisp cold air and warm radiant sunlight.",
+      "keyInsights": [
+        "The mirror reflection on the calm river creates symmetry that psychologically grounds the viewer in balance.",
+        "The contrast between warm sky hues and cool snow balances isolation with warmth and hope.",
+        "The absence of human figures enhances the sense of peaceful solitude and unhurried natural rhythm."
+      ],
+      "positiveSignals": [
+        "Vibrant golden hour lighting across the cloud cover.",
+        "Crystal-clear reflections denoting stillness and quietude.",
+        "Undisturbed snow-covered evergreen trees signifying pure, untouched nature."
+      ],
+      "concerns": [],
+      "voiceSummary": "A tranquil winter vista captures majestic snowy mountains and evergreen trees mirrored in a calm river beneath glowing golden twilight clouds.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Tranquility"
+      ],
+      "createdAt": "2026-09-28T19:23:03.629Z",
+      "updatedAt": "2026-09-28T19:23:03.629Z"
+    },
+    {
+      "analysisId": "an_i7fu6fjvt4",
+      "userId": "usr_fb_google_397r9f9",
+      "title": "20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing Analysis",
+      "overallSentiment": {
+        "label": "Positive",
+        "score": 0.94,
+        "confidence": "High"
+      },
+      "confidence": "High",
+      "score": 0.94,
+      "emotions": {
+        "dominant": {
+          "name": "Tranquility",
+          "score": 0.94
+        },
+        "secondary": []
+      },
+      "meaning": "A tranquil winter vista captures majestic snowy mountains and evergreen trees mirrored in a calm river beneath glowing golden twilight clouds.",
+      "status": "completed",
+      "tags": [
+        "Positive",
+        "Tranquility"
+      ],
+      "createdAt": "2026-09-28T19:23:03.679Z",
+      "updatedAt": "2026-09-28T19:23:03.679Z"
+    },
+    {
+      "analysisId": "an_1k8r9lw0bw",
+      "userId": "usr_dev_01",
+      "title": "Media Analysis: ChatGPT Image Jan 8, 2026, 02_06_15 PM.png",
+      "inputSummary": {
+        "textCount": 0,
+        "imageCount": 1,
+        "videoCount": 0,
+        "totalFiles": 1,
+        "hasDirectText": false
+      },
+      "overallSentiment": {
+        "label": "Positive",
+        "intensity": "High",
+        "confidence": "High",
+        "score": 0.95
+      },
+      "confidence": "High",
+      "score": 0.95,
+      "emotions": {
+        "dominant": {
+          "name": "Confidence",
+          "intensity": "High",
+          "reason": "The image conveys a sense of reliability and technological advancement in solving energy problems."
+        },
+        "secondary": [
+          {
+            "name": "Optimism",
+            "intensity": "Medium",
+            "reason": "The presentation of solutions for cost-saving and efficiency inspires a positive outlook."
+          },
+          {
+            "name": "Interest",
+            "intensity": "Medium",
+            "reason": "The detailed infographic nature invites the viewer to learn more about the IoT system."
+          }
+        ]
+      },
+      "meaning": "This is a promotional infographic for 'PowerNex', a smart IoT and machine learning-based system designed for energy consumption monitoring, prediction, and optimization in homes and businesses.",
+      "emotionalContext": "The visual language is professional, clean, and forward-looking, aiming to instill trust in the technology and provide a sense of control over energy costs.",
+      "visualObservations": "The image is a professionally designed infographic with a central cloud platform icon connecting a residential home setup with solar panels to a mobile interface. It uses clear iconography for machine learning processes, alerts, and usage tracking, set against a pleasant, bright outdoor backdrop.",
+      "keyInsights": [
+        "The system integrates hardware (smart meters, smart plugs) with a backend cloud platform.",
+        "Machine learning is central to analyzing data and generating energy-saving recommendations.",
+        "User empowerment is a core benefit, allowing individuals to monitor and optimize usage via a mobile app.",
+        "Environmental and economic benefits are implied through the focus on reducing wastage and lowering bills."
+      ],
+      "positiveSignals": [
+        "Clear, intuitive layout mapping the data flow.",
+        "Use of bright, clean colors suggesting a sustainable and modern solution.",
+        "Direct focus on benefits like 'Optimize Now' and 'Energy-Saving Recommendations'.",
+        "The imagery represents harmony between technology and home environments."
+      ],
+      "concerns": [
+        "Data privacy and security implications of a fully connected home IoT network are not addressed."
+      ],
+      "voiceSummary": "This infographic introduces PowerNex, an advanced smart system that utilizes IoT and machine learning to help homeowners and businesses monitor, predict, and optimize their electricity consumption, ultimately leading to reduced waste and lower energy bills.",
+      "status": "completed",
+      "language": "English",
+      "tags": [
+        "Positive",
+        "Confidence"
+      ],
+      "createdAt": "2026-10-12T09:33:56.971Z",
+      "updatedAt": "2026-10-12T09:33:56.971Z"
+    },
+    {
+      "analysisId": "an_1k8r9lw0bw",
+      "userId": "usr_fb_google_2g5oc1h",
+      "title": "ChatGPT Image Jan 8, 2026, 02_06_15 PM Analysis",
+      "overallSentiment": {
+        "label": "Positive",
+        "score": 0.95,
+        "confidence": "High"
+      },
+      "confidence": "High",
+      "score": 0.95,
+      "emotions": {
+        "dominant": {
+          "name": "Confidence",
+          "score": 0.95
+        },
+        "secondary": []
+      },
+      "meaning": "This infographic introduces PowerNex, an advanced smart system that utilizes IoT and machine learning to help homeowners and businesses monitor, predict, and optimize their electricity consumption, ultimately leading to reduced waste and lower energy bills.",
+      "status": "completed",
+      "tags": [
+        "Positive",
+        "Confidence"
+      ],
+      "createdAt": "2026-10-12T09:33:57.170Z",
+      "updatedAt": "2026-10-12T09:33:57.170Z"
+    }
+  ],
+  "analysisInputs": [
+    {
+      "inputId": "inp_seed_01",
+      "analysisId": "seed_an_01",
+      "inputType": "text",
+      "textContentReference": "The new SentimentAI update made our workflow twice as fast. Team loves the new layout!",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "inputId": "inp_zmpraak",
+      "analysisId": "an_fb_v9cktgamvm",
+      "inputType": "text",
+      "textContentReference": "The new multimodal architecture is incredible! Everything is fast, responsive, and beautifully integrated.",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-12T03:44:20.537Z"
+    },
+    {
+      "inputId": "inp_xun4uie",
+      "analysisId": "an_fb_dszbxgkl7w",
+      "inputType": "image",
+      "fileName": "1302bafb-380d-4d3e-b7bc-6111a25bc229.png",
+      "fileSize": 2384132,
+      "mimeType": "image/png",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-24T08:00:40.783Z"
+    },
+    {
+      "inputId": "inp_fh1t4p5",
+      "analysisId": "an_7lxufgxr25",
+      "inputType": "image",
+      "fileName": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "fileSize": 3530672,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-24T08:18:14.427Z"
+    },
+    {
+      "inputId": "inp_32ax3bo",
+      "analysisId": "an_uafe0ur419",
+      "inputType": "image",
+      "fileName": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "fileSize": 3530672,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T16:45:19.242Z"
+    },
+    {
+      "inputId": "inp_4ttz0o3",
+      "analysisId": "an_91k88xzrb3",
+      "inputType": "image",
+      "fileName": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "fileSize": 3530672,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T17:50:51.727Z"
+    },
+    {
+      "inputId": "inp_dcltsj3",
+      "analysisId": "an_7blem9zudj",
+      "inputType": "image",
+      "fileName": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "fileSize": 3530672,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T19:20:49.312Z"
+    },
+    {
+      "inputId": "inp_jskgr6i",
+      "analysisId": "an_7blem9zudj",
+      "inputType": "document",
+      "fileName": "20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T19:20:49.346Z"
+    },
+    {
+      "inputId": "inp_3ppmr00",
+      "analysisId": "an_i7fu6fjvt4",
+      "inputType": "image",
+      "fileName": "20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing.jpg",
+      "fileSize": 3464024,
+      "mimeType": "image/jpeg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T19:23:03.629Z"
+    },
+    {
+      "inputId": "inp_fyf30hw",
+      "analysisId": "an_i7fu6fjvt4",
+      "inputType": "document",
+      "fileName": "20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing.jpg",
+      "processingStatus": "processed",
+      "createdAt": "2026-09-28T19:23:03.679Z"
+    },
+    {
+      "inputId": "inp_qd0mp95",
+      "analysisId": "an_1k8r9lw0bw",
+      "inputType": "image",
+      "fileName": "ChatGPT Image Jan 8, 2026, 02_06_15 PM.png",
+      "fileSize": 2822702,
+      "mimeType": "image/png",
+      "processingStatus": "processed",
+      "createdAt": "2026-10-12T09:33:56.971Z"
+    },
+    {
+      "inputId": "inp_0wgkb1c",
+      "analysisId": "an_1k8r9lw0bw",
+      "inputType": "document",
+      "fileName": "ChatGPT Image Jan 8, 2026, 02_06_15 PM.png",
+      "processingStatus": "processed",
+      "createdAt": "2026-10-12T09:33:57.170Z"
+    }
+  ],
+  "analysisResults": [
+    {
+      "resultId": "res_seed_01",
+      "analysisId": "seed_an_01",
+      "fullResultJson": {
+        "analysis_id": "seed_an_01",
+        "created_at": 1789098147874,
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.88
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Enthusiasm & Delight",
+            "intensity": "High",
+            "reason": "Customers highlighted intuitive workflow execution."
+          },
+          "secondary": [
+            {
+              "name": "Attentive Loyalty",
+              "intensity": "Moderate",
+              "reason": "Long-term adoption intent."
+            }
+          ]
+        },
+        "meaning": "Customer reviews demonstrate high customer delight and strong brand loyalty.",
+        "emotional_context": "Optimism, appreciation, and forward-looking product confidence.",
+        "key_insights": [
+          "88% positive customer satisfaction index across all responses.",
+          "High enthusiasm regarding UI speed."
+        ],
+        "positive_signals": [
+          "Delight expressed regarding response accuracy.",
+          "High retention willingness."
+        ],
+        "concerns": [
+          "Minor onboarding questions mentioned by first-time users."
+        ],
+        "tts_summary": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm.",
+        "exact_file_contents": "Survey text: The new SentimentAI update made our workflow twice as fast.",
+        "file_content_items": [
+          "User feedback submission",
+          "Customer appreciation statements"
+        ],
+        "sentiment_coaching": {
+          "current_tone_evaluation": "The tone is already exceptionally positive and constructive.",
+          "target_goal": "Maintain positive momentum and amplify customer advocacy.",
+          "actionable_steps": [
+            "Send a personalized thank you note acknowledging user loyalty.",
+            "Share the customer feedback in the public community forum."
+          ],
+          "positive_reframing_tips": [
+            "Anchor success stories to customer enablement."
+          ]
+        }
+      },
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "resultId": "res_ctiiavg",
+      "analysisId": "an_fb_v9cktgamvm",
+      "fullResultJson": {
+        "analysis_id": "an_fb_v9cktgamvm",
+        "created_at": 1789184660537,
+        "language": "English",
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "Moderate to High",
+          "confidence": "High",
+          "score": 0.82
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Optimism & Confidence",
+            "intensity": "Moderate",
+            "reason": "Evaluated emotional cues from text input and uploaded assets (direct input)."
+          },
+          "secondary": [
+            {
+              "name": "Curiosity",
+              "intensity": "Moderate",
+              "reason": "Probing for analytical clarity and user feedback."
+            },
+            {
+              "name": "Attentiveness",
+              "intensity": "High",
+              "reason": "High focus on detail and communicative consistency."
+            }
+          ]
+        },
+        "meaning": "The input message expresses clear thematic intent: \"The new multimodal architecture is incredible! Everything is fast, responsive, and beautif...\". The tone reflects positive alignment.",
+        "emotional_context": "Constructive engagement characterized by forward momentum and active attention.",
+        "visual_observations": "No standalone image or video files attached.",
+        "audio_context": "Consistent acoustic cadence with stable pacing and absence of audio distortion.",
+        "multimodal_relationship": "Visual markers reinforce textual intent with harmonious emotional polarity.",
+        "exact_file_contents": "Text submission: The new multimodal architecture is incredible! Everything is fast, responsive, and beautifully integrated.",
+        "file_content_items": [
+          "Input stream content verification",
+          "Tone and lexical polarity analysis",
+          "Multimodal congruence check"
+        ],
+        "sentiment_coaching": {
+          "current_tone_evaluation": "The communicative tone currently stands at Positive (82% satisfaction rating).",
+          "target_goal": "Maximize empathetic connection and elevate collaboration efficiency.",
+          "actionable_steps": [
+            "Acknowledge the core objective at the beginning of the discussion.",
+            "Provide explicit confirmation of milestones achieved.",
+            "Maintain open-ended channels for user inquiries."
+          ],
+          "suggested_positive_rewrite": "Thank you for sharing this update. We have reviewed the details, and the overall direction is very promising.",
+          "positive_reframing_tips": [
+            "Frame friction points as collaborative problem-solving opportunities.",
+            "Reiterate positive achievements early in every briefing."
+          ]
+        },
+        "key_insights": [
+          "Sentiment evaluation registers at Positive (82% index).",
+          "High communicative congruence observed between media elements.",
+          "No critical hostility or communication breakdowns identified."
+        ],
+        "positive_signals": [
+          "Clarity of communicative intent.",
+          "Constructive engagement metrics."
+        ],
+        "concerns": [
+          "Continue monitoring for potential ambiguity in fast-paced exchanges."
+        ],
+        "tts_summary": "This analysis indicates an overall positive tone with an index of 82 percent. The dominant emotional state is Optimism & Confidence.",
+        "input_summary": {
+          "text_count": 1,
+          "image_count": 0,
+          "video_count": 0,
+          "total_files": 0,
+          "has_direct_text": true
+        }
+      },
+      "exactFileContents": "Text submission: The new multimodal architecture is incredible! Everything is fast, responsive, and beautifully integrated.",
+      "fileContentItems": [
+        "Input stream content verification",
+        "Tone and lexical polarity analysis",
+        "Multimodal congruence check"
+      ],
+      "coachingData": {
+        "current_tone_evaluation": "The communicative tone currently stands at Positive (82% satisfaction rating).",
+        "target_goal": "Maximize empathetic connection and elevate collaboration efficiency.",
+        "actionable_steps": [
+          "Acknowledge the core objective at the beginning of the discussion.",
+          "Provide explicit confirmation of milestones achieved.",
+          "Maintain open-ended channels for user inquiries."
+        ],
+        "suggested_positive_rewrite": "Thank you for sharing this update. We have reviewed the details, and the overall direction is very promising.",
+        "positive_reframing_tips": [
+          "Frame friction points as collaborative problem-solving opportunities.",
+          "Reiterate positive achievements early in every briefing."
+        ]
+      },
+      "createdAt": "2026-09-12T03:44:20.537Z",
+      "updatedAt": "2026-09-12T03:44:20.537Z"
+    },
+    {
+      "resultId": "res_23jwk5v",
+      "analysisId": "an_fb_dszbxgkl7w",
+      "fullResultJson": {
+        "analysis_id": "an_fb_dszbxgkl7w",
+        "created_at": 1790236840783,
+        "language": "English",
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "Moderate to High",
+          "confidence": "High",
+          "score": 0.82
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Optimism & Confidence",
+            "intensity": "Moderate",
+            "reason": "Evaluated emotional cues from text input and uploaded assets (1302bafb-380d-4d3e-b7bc-6111a25bc229.png)."
+          },
+          "secondary": [
+            {
+              "name": "Curiosity",
+              "intensity": "Moderate",
+              "reason": "Probing for analytical clarity and user feedback."
+            },
+            {
+              "name": "Attentiveness",
+              "intensity": "High",
+              "reason": "High focus on detail and communicative consistency."
+            }
+          ]
+        },
+        "meaning": "The multimodal files present an engaging, cohesive visual and acoustic structure.",
+        "emotional_context": "Constructive engagement characterized by forward momentum and active attention.",
+        "visual_observations": "Processed 1 multimodal media assets (1302bafb-380d-4d3e-b7bc-6111a25bc229.png). Visual clarity is optimal with balanced framing.",
+        "audio_context": "Consistent acoustic cadence with stable pacing and absence of audio distortion.",
+        "multimodal_relationship": "Visual markers reinforce textual intent with harmonious emotional polarity.",
+        "exact_file_contents": "Multimodal items: 1302bafb-380d-4d3e-b7bc-6111a25bc229.png",
+        "file_content_items": [
+          "Input stream content verification",
+          "Tone and lexical polarity analysis",
+          "Multimodal congruence check"
+        ],
+        "sentiment_coaching": {
+          "current_tone_evaluation": "The communicative tone currently stands at Positive (82% satisfaction rating).",
+          "target_goal": "Maximize empathetic connection and elevate collaboration efficiency.",
+          "actionable_steps": [
+            "Acknowledge the core objective at the beginning of the discussion.",
+            "Provide explicit confirmation of milestones achieved.",
+            "Maintain open-ended channels for user inquiries."
+          ],
+          "suggested_positive_rewrite": "Thank you for sharing this update. We have reviewed the details, and the overall direction is very promising.",
+          "positive_reframing_tips": [
+            "Frame friction points as collaborative problem-solving opportunities.",
+            "Reiterate positive achievements early in every briefing."
+          ]
+        },
+        "key_insights": [
+          "Sentiment evaluation registers at Positive (82% index).",
+          "High communicative congruence observed between media elements.",
+          "No critical hostility or communication breakdowns identified."
+        ],
+        "positive_signals": [
+          "Clarity of communicative intent.",
+          "Constructive engagement metrics."
+        ],
+        "concerns": [
+          "Continue monitoring for potential ambiguity in fast-paced exchanges."
+        ],
+        "tts_summary": "This analysis indicates an overall positive tone with an index of 82 percent. The dominant emotional state is Optimism & Confidence.",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "exactFileContents": "Multimodal items: 1302bafb-380d-4d3e-b7bc-6111a25bc229.png",
+      "fileContentItems": [
+        "Input stream content verification",
+        "Tone and lexical polarity analysis",
+        "Multimodal congruence check"
+      ],
+      "coachingData": {
+        "current_tone_evaluation": "The communicative tone currently stands at Positive (82% satisfaction rating).",
+        "target_goal": "Maximize empathetic connection and elevate collaboration efficiency.",
+        "actionable_steps": [
+          "Acknowledge the core objective at the beginning of the discussion.",
+          "Provide explicit confirmation of milestones achieved.",
+          "Maintain open-ended channels for user inquiries."
+        ],
+        "suggested_positive_rewrite": "Thank you for sharing this update. We have reviewed the details, and the overall direction is very promising.",
+        "positive_reframing_tips": [
+          "Frame friction points as collaborative problem-solving opportunities.",
+          "Reiterate positive achievements early in every briefing."
+        ]
+      },
+      "createdAt": "2026-09-24T08:00:40.783Z",
+      "updatedAt": "2026-09-24T08:00:40.783Z"
+    },
+    {
+      "resultId": "res_5r4hujs",
+      "analysisId": "an_7lxufgxr25",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.95
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "Very High",
+            "reason": "The vastness and natural beauty of the landscape create an overwhelming sense of wonder and appreciation for the environment."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "High",
+              "reason": "The soft sunset lighting and the quiet, undisturbed coastal scene evoke a feeling of deep peace."
+            },
+            {
+              "name": "Contemplation",
+              "intensity": "Medium",
+              "reason": "The expansive horizon and open space encourage a reflective state of mind."
+            }
+          ]
+        },
+        "meaning": "This image captures a serene, majestic coastal sunset. It represents the harmony between the land, sea, and sky at a moment of transition, conveying feelings of stillness, beauty, and timelessness.",
+        "emotional_context": "The visual input is a landscape photography piece designed to evoke relaxation and connection with nature. There is no human element, so the emotional context is purely focused on the atmospheric experience of the viewer.",
+        "key_insights": [
+          "Nature's aesthetic beauty has a strong grounding and calming effect.",
+          "The golden hour lighting enhances feelings of optimism and warmth.",
+          "Open horizons often mirror internal feelings of mental clarity or possibilities."
+        ],
+        "positive_signals": [
+          "Warm color palette promoting comfort.",
+          "Expansive open space suggesting freedom.",
+          "Calm, undisturbed body of water representing stability."
+        ],
+        "concerns": [],
+        "tts_summary": "This breathtaking image of a coastal sunset in the Scottish Highlands radiates serenity and awe. With its golden hues, vast landscape, and tranquil sea, it offers a deeply peaceful and reflective experience.",
+        "analysis_id": "an_7lxufgxr25",
+        "created_at": 1790237894426,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-09-24T08:18:14.427Z",
+      "updatedAt": "2026-09-24T08:18:14.427Z"
+    },
+    {
+      "resultId": "res_fcc0hyw",
+      "analysisId": "an_uafe0ur419",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.85
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "Strong",
+            "reason": "The vast, dramatic landscape under a golden sunset evokes a profound sense of wonder and appreciation for natural beauty."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "Moderate",
+              "reason": "The quiet, expansive bay and the stillness of the landscape suggest a peaceful, contemplative atmosphere."
+            },
+            {
+              "name": "Nostalgia",
+              "intensity": "Mild",
+              "reason": "The wild, rugged terrain carries a timeless quality that often triggers feelings of longing or connection to ancient places."
+            }
+          ]
+        },
+        "meaning": "This image captures a serene, majestic coastal scene during golden hour, emphasizing the beauty of untouched nature and the tranquil vastness of the horizon.",
+        "emotional_context": "The visual provides a sense of escape and restoration, serving as a reminder of the scale of the world and the quiet power of natural light.",
+        "key_insights": [
+          "Golden light acts as a powerful enhancer for emotional warmth and optimism.",
+          "Expansive horizons tend to lower cognitive stress and promote a sense of freedom.",
+          "The combination of warm tones and natural textures creates a comforting aesthetic."
+        ],
+        "positive_signals": [
+          "Warm color palette promoting comfort and vitality.",
+          "Open, unobstructed view inducing feelings of liberation.",
+          "Natural textures (heather, rocks) providing a sense of grounding."
+        ],
+        "concerns": [
+          "None, as the image depicts a peaceful, non-threatening natural environment."
+        ],
+        "tts_summary": "A breathtaking landscape view showcasing a golden sunset over a calm coastal bay, filled with vibrant heather and rugged terrain. The image radiates a deep sense of peace, awe, and natural beauty.",
+        "analysis_id": "an_uafe0ur419",
+        "created_at": 1790613919242,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-09-28T16:45:19.242Z",
+      "updatedAt": "2026-09-28T16:45:19.242Z"
+    },
+    {
+      "resultId": "res_0s43rxo",
+      "analysisId": "an_91k88xzrb3",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.85
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "High",
+            "reason": "The sweeping, vast landscape coupled with the dramatic, warm lighting creates a profound sense of wonder and appreciation for nature's beauty."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "Medium",
+              "reason": "The quiet, untouched coastal scene evokes a peaceful, contemplative mood."
+            },
+            {
+              "name": "Nostalgia",
+              "intensity": "Low",
+              "reason": "The rugged, timeless terrain can evoke a sense of longing for simpler, more natural landscapes."
+            }
+          ]
+        },
+        "meaning": "The image represents the sublime power of nature, capturing a moment of transition during sunset that highlights the harmony between sky, land, and sea.",
+        "emotional_context": "The visual serves as an aspirational, calming backdrop that encourages reflection, grounding, and perspective-taking through its expansive natural beauty.",
+        "key_insights": [
+          "Warm, golden lighting significantly elevates the emotional appeal and perceived positivity of the environment.",
+          "Open horizons are associated with feelings of freedom and mental clarity.",
+          "Foreground details like the purple heather provide a tactile connection to the landscape, increasing viewer immersion."
+        ],
+        "positive_signals": [
+          "Warm color palette evokes feelings of comfort and safety.",
+          "Expansive horizon suggests possibility and openness.",
+          "Clean, natural textures promote a sense of order and tranquility."
+        ],
+        "concerns": [
+          "The inherent remoteness of the scene could trigger a minor sense of isolation for some observers."
+        ],
+        "tts_summary": "This breathtaking image captures a serene and awe-inspiring sunset over a rugged coastal landscape. The warm, golden hues of the sky reflecting on the tranquil water create a peaceful, reflective, and profoundly positive atmosphere.",
+        "visual_observations": "The photograph depicts a wide-angle, high-resolution shot of a Scottish-style coastal landscape at sunset. The foreground is defined by textured, brown grasses and patches of purple heather. The mid-ground leads to a calm bay bordered by rolling hills. The sky is filled with dynamic, dramatic clouds illuminated in deep oranges and golds, providing a strong sense of depth and atmospheric scale.",
+        "analysis_id": "an_91k88xzrb3",
+        "created_at": 1790617851727,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-09-28T17:50:51.727Z",
+      "updatedAt": "2026-09-28T17:50:51.727Z"
+    },
+    {
+      "resultId": "res_sdvun8g",
+      "analysisId": "an_7blem9zudj",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.95
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "High",
+            "reason": "The vast, dramatic scale of the landscape paired with the vibrant, golden sunset evokes a profound sense of wonder."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "High",
+              "reason": "The stillness of the bay and the soft, warm light suggest a peaceful and calm environment."
+            },
+            {
+              "name": "Nostalgia",
+              "intensity": "Medium",
+              "reason": "The rugged, ancient feel of the terrain evokes feelings of timelessness and connection to nature."
+            }
+          ]
+        },
+        "meaning": "The image depicts a breathtaking, serene coastal landscape during golden hour, emphasizing beauty, isolation, and the grandeur of nature.",
+        "emotional_context": "The visual narrative represents a moment of quiet reflection, likely experienced during travel or a purposeful outdoor excursion.",
+        "key_insights": [
+          "The golden lighting acts as a metaphor for warmth, optimism, and conclusion.",
+          "The vast open space symbolizes freedom and personal introspection.",
+          "The combination of rugged earth and soft sunset creates a balance between stability and impermanence."
+        ],
+        "positive_signals": [
+          "Warm color palette suggests positivity and comfort.",
+          "Symmetrical composition of the bay and clouds creates visual harmony.",
+          "Well-maintained, natural setting implies ecological health and beauty."
+        ],
+        "concerns": [
+          "None; the image is entirely peaceful and positive in nature."
+        ],
+        "tts_summary": "This is a stunningly peaceful and awe-inspiring image of a coastal landscape at sunset, perfectly capturing a moment of profound beauty and serenity.",
+        "visual_observations": "The photograph displays a wide-angle view of a Scottish-style coastal landscape. The foreground features purple heather and dry grasses, leading to a middle-ground containing a bay with still water and rocky outcrops. The background is dominated by rolling hills and a spectacular, cloud-filled sky glowing with intense golden and amber hues from the setting sun.",
+        "analysis_id": "an_7blem9zudj",
+        "created_at": 1790623249311,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-09-28T19:20:49.312Z",
+      "updatedAt": "2026-09-28T19:20:49.312Z"
+    },
+    {
+      "resultId": "res_toczlus",
+      "analysisId": "an_7blem9zudj",
+      "fullResultJson": {
+        "success": true,
+        "analysisId": "an_7blem9zudj",
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.95
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Awe",
+            "intensity": "High",
+            "reason": "The vast, dramatic scale of the landscape paired with the vibrant, golden sunset evokes a profound sense of wonder."
+          },
+          "secondary": [
+            {
+              "name": "Serenity",
+              "intensity": "High",
+              "reason": "The stillness of the bay and the soft, warm light suggest a peaceful and calm environment."
+            },
+            {
+              "name": "Nostalgia",
+              "intensity": "Medium",
+              "reason": "The rugged, ancient feel of the terrain evokes feelings of timelessness and connection to nature."
+            }
+          ]
+        },
+        "meaning": "The image depicts a breathtaking, serene coastal landscape during golden hour, emphasizing beauty, isolation, and the grandeur of nature.",
+        "emotional_context": "The visual narrative represents a moment of quiet reflection, likely experienced during travel or a purposeful outdoor excursion.",
+        "key_insights": [
+          "The golden lighting acts as a metaphor for warmth, optimism, and conclusion.",
+          "The vast open space symbolizes freedom and personal introspection.",
+          "The combination of rugged earth and soft sunset creates a balance between stability and impermanence."
+        ],
+        "positive_signals": [
+          "Warm color palette suggests positivity and comfort.",
+          "Symmetrical composition of the bay and clouds creates visual harmony.",
+          "Well-maintained, natural setting implies ecological health and beauty."
+        ],
+        "concerns": [
+          "None; the image is entirely peaceful and positive in nature."
+        ],
+        "tts_summary": "This is a stunningly peaceful and awe-inspiring image of a coastal landscape at sunset, perfectly capturing a moment of profound beauty and serenity.",
+        "visual_observations": "The photograph displays a wide-angle view of a Scottish-style coastal landscape. The foreground features purple heather and dry grasses, leading to a middle-ground containing a bay with still water and rocky outcrops. The background is dominated by rolling hills and a spectacular, cloud-filled sky glowing with intense golden and amber hues from the setting sun.",
+        "analysis_id": "an_7blem9zudj",
+        "created_at": 1790623249311,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        },
+        "session": {
+          "analysisId": "an_7blem9zudj",
+          "userId": "usr_dev_01",
+          "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+          "inputSummary": {
+            "textCount": 0,
+            "imageCount": 1,
+            "videoCount": 0,
+            "totalFiles": 1,
+            "hasDirectText": false
+          },
+          "overallSentiment": {
+            "label": "Positive",
+            "intensity": "High",
+            "confidence": "High",
+            "score": 0.95
+          },
+          "confidence": "High",
+          "score": 0.95,
+          "emotions": {
+            "dominant": {
+              "name": "Awe",
+              "intensity": "High",
+              "reason": "The vast, dramatic scale of the landscape paired with the vibrant, golden sunset evokes a profound sense of wonder."
+            },
+            "secondary": [
+              {
+                "name": "Serenity",
+                "intensity": "High",
+                "reason": "The stillness of the bay and the soft, warm light suggest a peaceful and calm environment."
+              },
+              {
+                "name": "Nostalgia",
+                "intensity": "Medium",
+                "reason": "The rugged, ancient feel of the terrain evokes feelings of timelessness and connection to nature."
+              }
+            ]
+          },
+          "meaning": "The image depicts a breathtaking, serene coastal landscape during golden hour, emphasizing beauty, isolation, and the grandeur of nature.",
+          "emotionalContext": "The visual narrative represents a moment of quiet reflection, likely experienced during travel or a purposeful outdoor excursion.",
+          "visualObservations": "The photograph displays a wide-angle view of a Scottish-style coastal landscape. The foreground features purple heather and dry grasses, leading to a middle-ground containing a bay with still water and rocky outcrops. The background is dominated by rolling hills and a spectacular, cloud-filled sky glowing with intense golden and amber hues from the setting sun.",
+          "keyInsights": [
+            "The golden lighting acts as a metaphor for warmth, optimism, and conclusion.",
+            "The vast open space symbolizes freedom and personal introspection.",
+            "The combination of rugged earth and soft sunset creates a balance between stability and impermanence."
+          ],
+          "positiveSignals": [
+            "Warm color palette suggests positivity and comfort.",
+            "Symmetrical composition of the bay and clouds creates visual harmony.",
+            "Well-maintained, natural setting implies ecological health and beauty."
+          ],
+          "concerns": [
+            "None; the image is entirely peaceful and positive in nature."
+          ],
+          "voiceSummary": "This is a stunningly peaceful and awe-inspiring image of a coastal landscape at sunset, perfectly capturing a moment of profound beauty and serenity.",
+          "status": "completed",
+          "language": "English",
+          "tags": [
+            "Positive",
+            "Awe"
+          ],
+          "createdAt": "2026-09-28T19:20:49.312Z",
+          "updatedAt": "2026-09-28T19:20:49.312Z"
+        }
+      },
+      "createdAt": "2026-09-28T19:20:49.346Z",
+      "updatedAt": "2026-09-28T19:20:49.346Z"
+    },
+    {
+      "resultId": "res_3olfbhe",
+      "analysisId": "an_i7fu6fjvt4",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.94
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Tranquility",
+            "intensity": "High",
+            "reason": "The pristine, untouched snow combined with perfectly still, mirror-like water evokes a profound sense of inner stillness and peaceful contemplation."
+          },
+          "secondary": [
+            {
+              "name": "Awe",
+              "intensity": "High",
+              "reason": "The towering snow-capped mountain peaks bathed in dramatic golden dawn or dusk light evoke wonder at nature's scale."
+            },
+            {
+              "name": "Warmth",
+              "intensity": "Medium",
+              "reason": "The glowing orange and amber sky provides an emotionally soothing counterpoint to the frigid winter landscape."
+            }
+          ]
+        },
+        "meaning": "The image captures a harmonious interplay between the quiet chill of a winter wilderness and the comforting radiance of sunrise or sunset, symbolizing renewal, calm reflection, and majestic solitude.",
+        "emotional_context": "A restorative visual sanctuary removed from the noise of modern life, offering space for mindfulness and emotional decompression.",
+        "key_insights": [
+          "The mirror reflection on the calm river creates symmetry that psychologically grounds the viewer in balance.",
+          "The contrast between warm sky hues and cool snow balances isolation with warmth and hope.",
+          "The absence of human figures enhances the sense of peaceful solitude and unhurried natural rhythm."
+        ],
+        "positive_signals": [
+          "Vibrant golden hour lighting across the cloud cover.",
+          "Crystal-clear reflections denoting stillness and quietude.",
+          "Undisturbed snow-covered evergreen trees signifying pure, untouched nature."
+        ],
+        "concerns": [],
+        "tts_summary": "A tranquil winter vista captures majestic snowy mountains and evergreen trees mirrored in a calm river beneath glowing golden twilight clouds.",
+        "audio_context": "Silent and serene visual atmosphere evoking gentle sounds of crisp cold air and faintly trickling icy water.",
+        "exact_file_contents": "",
+        "file_content_items": [],
+        "multimodal_relationship": "Purely visual landscape evoking multisensory sensations of crisp cold air and warm radiant sunlight.",
+        "sentiment_coaching": {
+          "actionable_steps": [
+            "Engage in a two-minute deep breathing exercise while visualizing the calm reflection in the water.",
+            "Use this visual landscape as a mental anchor when feeling overwhelmed by daily chaos."
+          ],
+          "current_tone_evaluation": "Deeply calming, inspiring, and restorative.",
+          "positive_reframing_tips": [
+            "Embrace quiet moments as opportunities for self-reflection rather than emptiness."
+          ],
+          "suggested_positive_rewrite": "Take a breath and enjoy the tranquil beauty of nature at its most peaceful.",
+          "target_goal": "Fostering mindfulness, emotional equilibrium, and appreciation for quiet solitude."
+        },
+        "visual_observations": "A scenic panorama showing snow-blanketed fir trees lining the banks of a partially frozen river, which flawlessly reflects dramatic orange and gold clouds framing sharp mountain peaks in the distance.",
+        "analysis_id": "an_i7fu6fjvt4",
+        "created_at": 1790623383629,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "exactFileContents": "",
+      "fileContentItems": [],
+      "coachingData": {
+        "actionable_steps": [
+          "Engage in a two-minute deep breathing exercise while visualizing the calm reflection in the water.",
+          "Use this visual landscape as a mental anchor when feeling overwhelmed by daily chaos."
+        ],
+        "current_tone_evaluation": "Deeply calming, inspiring, and restorative.",
+        "positive_reframing_tips": [
+          "Embrace quiet moments as opportunities for self-reflection rather than emptiness."
+        ],
+        "suggested_positive_rewrite": "Take a breath and enjoy the tranquil beauty of nature at its most peaceful.",
+        "target_goal": "Fostering mindfulness, emotional equilibrium, and appreciation for quiet solitude."
+      },
+      "createdAt": "2026-09-28T19:23:03.629Z",
+      "updatedAt": "2026-09-28T19:23:03.629Z"
+    },
+    {
+      "resultId": "res_eekqjnv",
+      "analysisId": "an_i7fu6fjvt4",
+      "fullResultJson": {
+        "success": true,
+        "analysisId": "an_i7fu6fjvt4",
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.94
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Tranquility",
+            "intensity": "High",
+            "reason": "The pristine, untouched snow combined with perfectly still, mirror-like water evokes a profound sense of inner stillness and peaceful contemplation."
+          },
+          "secondary": [
+            {
+              "name": "Awe",
+              "intensity": "High",
+              "reason": "The towering snow-capped mountain peaks bathed in dramatic golden dawn or dusk light evoke wonder at nature's scale."
+            },
+            {
+              "name": "Warmth",
+              "intensity": "Medium",
+              "reason": "The glowing orange and amber sky provides an emotionally soothing counterpoint to the frigid winter landscape."
+            }
+          ]
+        },
+        "meaning": "The image captures a harmonious interplay between the quiet chill of a winter wilderness and the comforting radiance of sunrise or sunset, symbolizing renewal, calm reflection, and majestic solitude.",
+        "emotional_context": "A restorative visual sanctuary removed from the noise of modern life, offering space for mindfulness and emotional decompression.",
+        "key_insights": [
+          "The mirror reflection on the calm river creates symmetry that psychologically grounds the viewer in balance.",
+          "The contrast between warm sky hues and cool snow balances isolation with warmth and hope.",
+          "The absence of human figures enhances the sense of peaceful solitude and unhurried natural rhythm."
+        ],
+        "positive_signals": [
+          "Vibrant golden hour lighting across the cloud cover.",
+          "Crystal-clear reflections denoting stillness and quietude.",
+          "Undisturbed snow-covered evergreen trees signifying pure, untouched nature."
+        ],
+        "concerns": [],
+        "tts_summary": "A tranquil winter vista captures majestic snowy mountains and evergreen trees mirrored in a calm river beneath glowing golden twilight clouds.",
+        "audio_context": "Silent and serene visual atmosphere evoking gentle sounds of crisp cold air and faintly trickling icy water.",
+        "exact_file_contents": "",
+        "file_content_items": [],
+        "multimodal_relationship": "Purely visual landscape evoking multisensory sensations of crisp cold air and warm radiant sunlight.",
+        "sentiment_coaching": {
+          "actionable_steps": [
+            "Engage in a two-minute deep breathing exercise while visualizing the calm reflection in the water.",
+            "Use this visual landscape as a mental anchor when feeling overwhelmed by daily chaos."
+          ],
+          "current_tone_evaluation": "Deeply calming, inspiring, and restorative.",
+          "positive_reframing_tips": [
+            "Embrace quiet moments as opportunities for self-reflection rather than emptiness."
+          ],
+          "suggested_positive_rewrite": "Take a breath and enjoy the tranquil beauty of nature at its most peaceful.",
+          "target_goal": "Fostering mindfulness, emotional equilibrium, and appreciation for quiet solitude."
+        },
+        "visual_observations": "A scenic panorama showing snow-blanketed fir trees lining the banks of a partially frozen river, which flawlessly reflects dramatic orange and gold clouds framing sharp mountain peaks in the distance.",
+        "analysis_id": "an_i7fu6fjvt4",
+        "created_at": 1790623383629,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        },
+        "session": {
+          "analysisId": "an_i7fu6fjvt4",
+          "userId": "usr_dev_01",
+          "title": "Media Analysis: 20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing.jpg",
+          "inputSummary": {
+            "textCount": 0,
+            "imageCount": 1,
+            "videoCount": 0,
+            "totalFiles": 1,
+            "hasDirectText": false
+          },
+          "overallSentiment": {
+            "label": "Positive",
+            "intensity": "High",
+            "confidence": "High",
+            "score": 0.94
+          },
+          "confidence": "High",
+          "score": 0.94,
+          "emotions": {
+            "dominant": {
+              "name": "Tranquility",
+              "intensity": "High",
+              "reason": "The pristine, untouched snow combined with perfectly still, mirror-like water evokes a profound sense of inner stillness and peaceful contemplation."
+            },
+            "secondary": [
+              {
+                "name": "Awe",
+                "intensity": "High",
+                "reason": "The towering snow-capped mountain peaks bathed in dramatic golden dawn or dusk light evoke wonder at nature's scale."
+              },
+              {
+                "name": "Warmth",
+                "intensity": "Medium",
+                "reason": "The glowing orange and amber sky provides an emotionally soothing counterpoint to the frigid winter landscape."
+              }
+            ]
+          },
+          "meaning": "The image captures a harmonious interplay between the quiet chill of a winter wilderness and the comforting radiance of sunrise or sunset, symbolizing renewal, calm reflection, and majestic solitude.",
+          "emotionalContext": "A restorative visual sanctuary removed from the noise of modern life, offering space for mindfulness and emotional decompression.",
+          "visualObservations": "A scenic panorama showing snow-blanketed fir trees lining the banks of a partially frozen river, which flawlessly reflects dramatic orange and gold clouds framing sharp mountain peaks in the distance.",
+          "audioContext": "Silent and serene visual atmosphere evoking gentle sounds of crisp cold air and faintly trickling icy water.",
+          "multimodalRelationship": "Purely visual landscape evoking multisensory sensations of crisp cold air and warm radiant sunlight.",
+          "keyInsights": [
+            "The mirror reflection on the calm river creates symmetry that psychologically grounds the viewer in balance.",
+            "The contrast between warm sky hues and cool snow balances isolation with warmth and hope.",
+            "The absence of human figures enhances the sense of peaceful solitude and unhurried natural rhythm."
+          ],
+          "positiveSignals": [
+            "Vibrant golden hour lighting across the cloud cover.",
+            "Crystal-clear reflections denoting stillness and quietude.",
+            "Undisturbed snow-covered evergreen trees signifying pure, untouched nature."
+          ],
+          "concerns": [],
+          "voiceSummary": "A tranquil winter vista captures majestic snowy mountains and evergreen trees mirrored in a calm river beneath glowing golden twilight clouds.",
+          "status": "completed",
+          "language": "English",
+          "tags": [
+            "Positive",
+            "Tranquility"
+          ],
+          "createdAt": "2026-09-28T19:23:03.629Z",
+          "updatedAt": "2026-09-28T19:23:03.629Z"
+        }
+      },
+      "createdAt": "2026-09-28T19:23:03.679Z",
+      "updatedAt": "2026-09-28T19:23:03.679Z"
+    },
+    {
+      "resultId": "res_idv5wo6",
+      "analysisId": "an_1k8r9lw0bw",
+      "fullResultJson": {
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.95
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Confidence",
+            "intensity": "High",
+            "reason": "The image conveys a sense of reliability and technological advancement in solving energy problems."
+          },
+          "secondary": [
+            {
+              "name": "Optimism",
+              "intensity": "Medium",
+              "reason": "The presentation of solutions for cost-saving and efficiency inspires a positive outlook."
+            },
+            {
+              "name": "Interest",
+              "intensity": "Medium",
+              "reason": "The detailed infographic nature invites the viewer to learn more about the IoT system."
+            }
+          ]
+        },
+        "meaning": "This is a promotional infographic for 'PowerNex', a smart IoT and machine learning-based system designed for energy consumption monitoring, prediction, and optimization in homes and businesses.",
+        "emotional_context": "The visual language is professional, clean, and forward-looking, aiming to instill trust in the technology and provide a sense of control over energy costs.",
+        "key_insights": [
+          "The system integrates hardware (smart meters, smart plugs) with a backend cloud platform.",
+          "Machine learning is central to analyzing data and generating energy-saving recommendations.",
+          "User empowerment is a core benefit, allowing individuals to monitor and optimize usage via a mobile app.",
+          "Environmental and economic benefits are implied through the focus on reducing wastage and lowering bills."
+        ],
+        "positive_signals": [
+          "Clear, intuitive layout mapping the data flow.",
+          "Use of bright, clean colors suggesting a sustainable and modern solution.",
+          "Direct focus on benefits like 'Optimize Now' and 'Energy-Saving Recommendations'.",
+          "The imagery represents harmony between technology and home environments."
+        ],
+        "concerns": [
+          "Data privacy and security implications of a fully connected home IoT network are not addressed."
+        ],
+        "tts_summary": "This infographic introduces PowerNex, an advanced smart system that utilizes IoT and machine learning to help homeowners and businesses monitor, predict, and optimize their electricity consumption, ultimately leading to reduced waste and lower energy bills.",
+        "visual_observations": "The image is a professionally designed infographic with a central cloud platform icon connecting a residential home setup with solar panels to a mobile interface. It uses clear iconography for machine learning processes, alerts, and usage tracking, set against a pleasant, bright outdoor backdrop.",
+        "analysis_id": "an_1k8r9lw0bw",
+        "created_at": 1791797636971,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        }
+      },
+      "createdAt": "2026-10-12T09:33:56.971Z",
+      "updatedAt": "2026-10-12T09:33:56.971Z"
+    },
+    {
+      "resultId": "res_gf6o3lv",
+      "analysisId": "an_1k8r9lw0bw",
+      "fullResultJson": {
+        "success": true,
+        "analysisId": "an_1k8r9lw0bw",
+        "overall_sentiment": {
+          "label": "Positive",
+          "intensity": "High",
+          "confidence": "High",
+          "score": 0.95
+        },
+        "emotions": {
+          "dominant": {
+            "name": "Confidence",
+            "intensity": "High",
+            "reason": "The image conveys a sense of reliability and technological advancement in solving energy problems."
+          },
+          "secondary": [
+            {
+              "name": "Optimism",
+              "intensity": "Medium",
+              "reason": "The presentation of solutions for cost-saving and efficiency inspires a positive outlook."
+            },
+            {
+              "name": "Interest",
+              "intensity": "Medium",
+              "reason": "The detailed infographic nature invites the viewer to learn more about the IoT system."
+            }
+          ]
+        },
+        "meaning": "This is a promotional infographic for 'PowerNex', a smart IoT and machine learning-based system designed for energy consumption monitoring, prediction, and optimization in homes and businesses.",
+        "emotional_context": "The visual language is professional, clean, and forward-looking, aiming to instill trust in the technology and provide a sense of control over energy costs.",
+        "key_insights": [
+          "The system integrates hardware (smart meters, smart plugs) with a backend cloud platform.",
+          "Machine learning is central to analyzing data and generating energy-saving recommendations.",
+          "User empowerment is a core benefit, allowing individuals to monitor and optimize usage via a mobile app.",
+          "Environmental and economic benefits are implied through the focus on reducing wastage and lowering bills."
+        ],
+        "positive_signals": [
+          "Clear, intuitive layout mapping the data flow.",
+          "Use of bright, clean colors suggesting a sustainable and modern solution.",
+          "Direct focus on benefits like 'Optimize Now' and 'Energy-Saving Recommendations'.",
+          "The imagery represents harmony between technology and home environments."
+        ],
+        "concerns": [
+          "Data privacy and security implications of a fully connected home IoT network are not addressed."
+        ],
+        "tts_summary": "This infographic introduces PowerNex, an advanced smart system that utilizes IoT and machine learning to help homeowners and businesses monitor, predict, and optimize their electricity consumption, ultimately leading to reduced waste and lower energy bills.",
+        "visual_observations": "The image is a professionally designed infographic with a central cloud platform icon connecting a residential home setup with solar panels to a mobile interface. It uses clear iconography for machine learning processes, alerts, and usage tracking, set against a pleasant, bright outdoor backdrop.",
+        "analysis_id": "an_1k8r9lw0bw",
+        "created_at": 1791797636971,
+        "language": "English",
+        "input_summary": {
+          "text_count": 0,
+          "image_count": 1,
+          "video_count": 0,
+          "total_files": 1,
+          "has_direct_text": false
+        },
+        "session": {
+          "analysisId": "an_1k8r9lw0bw",
+          "userId": "usr_dev_01",
+          "title": "Media Analysis: ChatGPT Image Jan 8, 2026, 02_06_15 PM.png",
+          "inputSummary": {
+            "textCount": 0,
+            "imageCount": 1,
+            "videoCount": 0,
+            "totalFiles": 1,
+            "hasDirectText": false
+          },
+          "overallSentiment": {
+            "label": "Positive",
+            "intensity": "High",
+            "confidence": "High",
+            "score": 0.95
+          },
+          "confidence": "High",
+          "score": 0.95,
+          "emotions": {
+            "dominant": {
+              "name": "Confidence",
+              "intensity": "High",
+              "reason": "The image conveys a sense of reliability and technological advancement in solving energy problems."
+            },
+            "secondary": [
+              {
+                "name": "Optimism",
+                "intensity": "Medium",
+                "reason": "The presentation of solutions for cost-saving and efficiency inspires a positive outlook."
+              },
+              {
+                "name": "Interest",
+                "intensity": "Medium",
+                "reason": "The detailed infographic nature invites the viewer to learn more about the IoT system."
+              }
+            ]
+          },
+          "meaning": "This is a promotional infographic for 'PowerNex', a smart IoT and machine learning-based system designed for energy consumption monitoring, prediction, and optimization in homes and businesses.",
+          "emotionalContext": "The visual language is professional, clean, and forward-looking, aiming to instill trust in the technology and provide a sense of control over energy costs.",
+          "visualObservations": "The image is a professionally designed infographic with a central cloud platform icon connecting a residential home setup with solar panels to a mobile interface. It uses clear iconography for machine learning processes, alerts, and usage tracking, set against a pleasant, bright outdoor backdrop.",
+          "keyInsights": [
+            "The system integrates hardware (smart meters, smart plugs) with a backend cloud platform.",
+            "Machine learning is central to analyzing data and generating energy-saving recommendations.",
+            "User empowerment is a core benefit, allowing individuals to monitor and optimize usage via a mobile app.",
+            "Environmental and economic benefits are implied through the focus on reducing wastage and lowering bills."
+          ],
+          "positiveSignals": [
+            "Clear, intuitive layout mapping the data flow.",
+            "Use of bright, clean colors suggesting a sustainable and modern solution.",
+            "Direct focus on benefits like 'Optimize Now' and 'Energy-Saving Recommendations'.",
+            "The imagery represents harmony between technology and home environments."
+          ],
+          "concerns": [
+            "Data privacy and security implications of a fully connected home IoT network are not addressed."
+          ],
+          "voiceSummary": "This infographic introduces PowerNex, an advanced smart system that utilizes IoT and machine learning to help homeowners and businesses monitor, predict, and optimize their electricity consumption, ultimately leading to reduced waste and lower energy bills.",
+          "status": "completed",
+          "language": "English",
+          "tags": [
+            "Positive",
+            "Confidence"
+          ],
+          "createdAt": "2026-10-12T09:33:56.971Z",
+          "updatedAt": "2026-10-12T09:33:56.971Z"
+        }
+      },
+      "createdAt": "2026-10-12T09:33:57.170Z",
+      "updatedAt": "2026-10-12T09:33:57.170Z"
+    }
+  ],
+  "reports": [
+    {
+      "reportId": "rep_seed_01",
+      "userId": "usr_dev_01",
+      "analysisId": "seed_an_01",
+      "title": "Q3 Customer Feedback Executive Briefing",
+      "summary": "Comprehensive synthesis of customer feedback showing 88% positive satisfaction.",
+      "format": "executive",
+      "status": "completed",
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "voiceSessions": [
+    {
+      "sessionId": "v_seed_01",
+      "userId": "usr_dev_01",
+      "analysisId": "seed_an_01",
+      "title": "Voice Briefing: Q3 Customer Survey",
+      "transcript": "This customer survey reveals overwhelmingly positive sentiment with strong enthusiasm.",
+      "audioSummary": "Positive outlook with strong enthusiasm.",
+      "durationSeconds": 18,
+      "language": "English",
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "posts": [
+    {
+      "postId": "post_seed_01",
+      "authorId": "usr_dev_01",
+      "authorName": "Alex Rivera",
+      "authorEmail": "alex@sentimentai.com",
+      "authorRole": "user",
+      "content": "Just analyzed our Q3 user survey results. Seeing an incredible 88% positive sentiment score across the board! 🚀",
+      "privacy": "community",
+      "sentimentBadge": {
+        "label": "Positive",
+        "dominantEmotion": "Enthusiasm & Delight",
+        "score": 0.88
+      },
+      "metrics": {
+        "confidence": "High",
+        "inputTypes": [
+          "text"
+        ]
+      },
+      "analysisId": "seed_an_01",
+      "tags": [
+        "ProductSurvey",
+        "SentimentInsights"
+      ],
+      "likesCount": 3,
+      "commentsCount": 1,
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "postId": "post_seed_02",
+      "authorId": "usr_dev_02",
+      "authorName": "Elena Rostova",
+      "authorEmail": "elena@sentimentai.com",
+      "authorRole": "user",
+      "content": "Has anyone tried multimodal analysis combining meeting recordings with slide notes? The correlation between visual transitions and vocal tone is fascinating!",
+      "privacy": "public",
+      "sentimentBadge": {
+        "label": "Positive",
+        "dominantEmotion": "Curiosity & Exploration",
+        "score": 0.82
+      },
+      "metrics": {
+        "confidence": "High",
+        "inputTypes": [
+          "video",
+          "text"
+        ]
+      },
+      "tags": [
+        "Multimodal",
+        "SpeechAnalytics"
+      ],
+      "likesCount": 5,
+      "commentsCount": 0,
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "comments": [
+    {
+      "commentId": "comm_seed_01",
+      "postId": "post_seed_01",
+      "authorId": "usr_admin_01",
+      "authorName": "SentimentAI Admin",
+      "authorEmail": "admin@sentimentai.com",
+      "authorRole": "admin",
+      "content": "Fantastic results, Alex! The customer satisfaction trajectory has improved notably since the v2.4 launch.",
+      "createdAt": "2026-09-11T03:42:27.874Z",
+      "updatedAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "likes": [
+    {
+      "likeId": "like_seed_01",
+      "postId": "post_seed_01",
+      "userId": "usr_admin_01",
+      "createdAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "likeId": "like_seed_02",
+      "postId": "post_seed_01",
+      "userId": "usr_dev_02",
+      "createdAt": "2026-09-11T03:42:27.874Z"
+    },
+    {
+      "likeId": "like_seed_03",
+      "postId": "post_seed_02",
+      "userId": "usr_dev_01",
+      "createdAt": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "communityReports": [],
+  "auditLogs": [
+    {
+      "id": "log_1791797640851_plhh4",
+      "userId": "usr_fb_google_2g5oc1h",
+      "userName": "User",
+      "userRole": "user",
+      "action": "CLOUD_STORAGE_AUTO_SYNC",
+      "targetType": "cloud_storage",
+      "targetId": "usr_fb_google_2g5oc1h",
+      "metadata": {
+        "syncedCount": 1,
+        "recordIds": [
+          "an_1k8r9lw0bw"
+        ]
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-10-12T09:34:00.851Z"
+    },
+    {
+      "id": "log_1791797637071_t8v5l",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_1k8r9lw0bw",
+      "metadata": {
+        "title": "Media Analysis: ChatGPT Image Jan 8, 2026, 02_06_15 PM.png",
+        "score": 0.95,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-10-12T09:33:57.071Z"
+    },
+    {
+      "id": "log_1790623384755_8b1i5",
+      "userId": "usr_fb_google_397r9f9",
+      "userName": "User",
+      "userRole": "user",
+      "action": "CLOUD_STORAGE_AUTO_SYNC",
+      "targetType": "cloud_storage",
+      "targetId": "usr_fb_google_397r9f9",
+      "metadata": {
+        "syncedCount": 1,
+        "recordIds": [
+          "an_i7fu6fjvt4"
+        ]
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-28T19:23:04.755Z"
+    },
+    {
+      "id": "log_1790623383644_pan99",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_i7fu6fjvt4",
+      "metadata": {
+        "title": "Media Analysis: 20260216_OHR.BanffWinter_EN-IN9640409909_UHD_bing.jpg",
+        "score": 0.94,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-28T19:23:03.644Z"
+    },
+    {
+      "id": "log_1790623249325_lt8k0",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_7blem9zudj",
+      "metadata": {
+        "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+        "score": 0.95,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-28T19:20:49.325Z"
+    },
+    {
+      "id": "log_1790617851737_26bki",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_91k88xzrb3",
+      "metadata": {
+        "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+        "score": 0.85,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-28T17:50:51.738Z"
+    },
+    {
+      "id": "log_1790613919252_zuni3",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_uafe0ur419",
+      "metadata": {
+        "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+        "score": 0.85,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-28T16:45:19.252Z"
+    },
+    {
+      "id": "log_1790237894444_2xtvc",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_7lxufgxr25",
+      "metadata": {
+        "title": "Media Analysis: 20251003_OHR.SkyeHeather_EN-IN2826518684_UHD_bing.jpg",
+        "score": 0.95,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-24T08:18:14.444Z"
+    },
+    {
+      "id": "log_1790236840788_60uwy",
+      "userId": "usr_dev_01",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_fb_dszbxgkl7w",
+      "metadata": {
+        "title": "Media Analysis: 1302bafb-380d-4d3e-b7bc-6111a25bc229.png",
+        "score": 0.82,
+        "sentiment": "Positive",
+        "persisted": true
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-24T08:00:40.788Z"
+    },
+    {
+      "id": "log_1789184662643_nuh02",
+      "userId": "usr_admin_01",
+      "userName": "SentimentAI Admin",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:22.643Z"
+    },
+    {
+      "id": "log_1789184660538_wldwm",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "an_fb_v9cktgamvm",
+      "metadata": {
+        "title": "The new multimodal architecture is incredible! Everything is",
+        "score": 0.82,
+        "sentiment": "Positive"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:20.538Z"
+    },
+    {
+      "id": "log_1789184659849_ne9r8",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:19.849Z"
+    },
+    {
+      "id": "log_1789184657529_5p2ux",
+      "userId": "usr_admin_01",
+      "userName": "SentimentAI Admin",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:17.529Z"
+    },
+    {
+      "id": "log_1789184654420_saisi",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:14.420Z"
+    },
+    {
+      "id": "log_1789184649445_5ogik",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_dev_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:09.445Z"
+    },
+    {
+      "id": "log_1789184644839_e5rme",
+      "userId": "usr_admin_01",
+      "userName": "SentimentAI Admin",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_01",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-12T03:44:04.839Z"
+    },
+    {
+      "id": "log_seed_01",
+      "userId": "usr_admin_01",
+      "userName": "SentimentAI Admin",
+      "userRole": "admin",
+      "action": "SYSTEM_INITIALIZED",
+      "targetType": "system",
+      "targetId": "sentimentai_core",
+      "metadata": {
+        "version": "2.4.0",
+        "environment": "development"
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-05T03:42:27.874Z"
+    },
+    {
+      "id": "log_seed_02",
+      "userId": "usr_dev_01",
+      "userName": "Alex Rivera",
+      "userRole": "user",
+      "action": "ANALYSIS_CREATED",
+      "targetType": "analysis",
+      "targetId": "seed_an_01",
+      "metadata": {
+        "title": "Q3 Customer Feedback & Product Survey",
+        "score": 0.88
+      },
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-11T03:42:27.874Z"
+    }
+  ],
+  "friendRequests": [],
+  "friendships": [],
+  "conversations": [],
+  "conversationMembers": [],
+  "messages": [],
+  "callSessions": [],
+  "callParticipants": [],
+  "notifications": [],
+  "blocks": [],
+  "searchHistory": [],
+  "clarityConversations": [],
+  "clarityMessages": [],
+  "goals": [],
+  "goalProgress": [],
+  "userSessions": []
+}
